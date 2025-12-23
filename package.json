@@ -1,0 +1,28 @@
+{
+  "name": "kiruthigarani-react",
+  "version": "1.0.0",
+  "description": "Practice project",
+  "homepage": "https://github.com/kiruthigarani/kiruthigarani-react#readme",
+  "bugs": {
+    "url": "https://github.com/kiruthigarani/kiruthigarani-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiruthigarani/kiruthigarani-react.git"
+  },
+  "license": "ISC",
+  "author": "kiruthiga",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
