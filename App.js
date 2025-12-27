@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import HeaderComponent from "./src/component/HeaderComponent.js";
-import BodyComponent from "./src/component/BodyComponent.js";
+import HeaderComponent from "./src/component/HeaderComponent";
+import BodyComponent from "./src/component/BodyComponent";
 
 
 const AppComponent = () => {

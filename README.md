@@ -57,3 +57,23 @@ const Heading2 = () =>  (
     </h1> 
     </div>
     );
+
+
+
+### Dont use index as key for a component
+-  a key should be coming from your data, such as a database ID. React uses your keys to know what happened if you later insert, delete, or reorder the items..
+Why key shouldn't be the array index : https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/
+
+perfect example : https://jsbin.com/wohima/edit?output
+Read more :https://stackoverflow.com/questions/42773892/wrong-components-rendered-by-preact
+
+## Config-driven UI - Read abt it
+
+## 2 types of exports
+1. Named export - when we want to export more than one variable use named export
+        eg: export const variablenmae= value; 
+            import {variablename} from file_path; //difference is {} curly braces
+2. default export -  when we want to export a component use defaault export
+    eg: export default <module_name>;
+      import <variable or module_name> from file_path;
+        eg: import Headercomponent from file_path; //default import doesnt have {} curly braces

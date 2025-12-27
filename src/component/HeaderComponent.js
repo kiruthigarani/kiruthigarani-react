@@ -1,12 +1,13 @@
 import  React from  "react";
 import  "../css/index.css";
-const logo = require('../images/logo.png');
+import {logo} from '../images/logo.png';
+
 
 const Header = () => {
     return (
         <div className="header-container">
             <div className="logo">
-             <img src={logo.default || logo} alt="Kiruthiga logo" />
+             <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_260/portal/m/seo/Logos/Swiggy/Swiggy%20logo-2.png" alt="Kiruthiga logo" />
             </div>
             <div className="nav-items">
                 <ul>
