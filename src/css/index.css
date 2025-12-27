@@ -1,0 +1,73 @@
+.header-container{
+    border: 1px solid black;
+      display: flex;
+      justify-content: space-between;
+       border-radius: 6px; 
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+    padding: 5px 20px;
+}
+.nav-items  {
+   
+    padding: 0px 20px;
+}
+
+.nav-items >ul  {
+    display: flex;
+    list-style: none;
+  
+}
+.nav-items >ul >li {
+    padding: 0px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.body-container{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 6px;    
+    margin-top: 10px;    
+     
+}
+/* .restuarant-container{
+      
+    gap: 20px;
+   
+    padding: 10px;
+} */
+.res-card{
+  
+    height: 300px;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+        margin: 15px;
+    padding: 15px;
+
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.search-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.res-card img {
+    height: 150px;
+   width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-properties{
+    xpadding: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,759 @@
+[{
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "132859581",
+                                                            "name": "Jalapeno Poppers",
+                                                            "category": "Appetizers",
+                                                            "description": "Serves 1 | Jalapano poppers with gooey white sauce. (250 Kcal/100g). Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/17/ad0a3dcb-da8c-44a9-b5e3-2bd2c117eac2_550c1445-2db5-4331-a143-465cdc2a5129.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "20 ratings",
+                                                                    "ratingCountV2": "20"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "31607883"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "135326961",
+                                                            "name": "Melts 3 Course Meal for 1 Non-Veg",
+                                                            "category": "Appetizers",
+                                                            "description": "Serves 1 | The perfect \"Me Time\" meal. Choose your favourite Melts & Fries accompanied with 1 Pepsi PET. Cheezy Cheese Chicken Melts : (268 Kcal/100g), Loaded BBQ Non-Veg Melts : (330 Kcal/100g), Chicken Tikka Keema Melts : (283 Kcal/100g). For Meals, refer to the nutritional data for individual products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/5ecb8dd2-9320-4331-b9fa-e86c25957788_aaa42e08-a75c-486e-be8d-b89f70a8fa61.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "variants": {},
+                                                            "variantsV2": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "60070617",
+                                                                        "name": "Choose your Melt",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Loaded Chicken BBQ",
+                                                                                "price": 359,
+                                                                                "default": 1,
+                                                                                "id": "185996766",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Cheezy Cheese Chicken",
+                                                                                "price": 379,
+                                                                                "id": "185996769",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Royal Spice Chicken Melts",
+                                                                                "price": 389,
+                                                                                "id": "185996771",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Kadhai Chicken Melts",
+                                                                                "price": 419,
+                                                                                "id": "185996773",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "pricingModels": [
+                                                                    {
+                                                                        "variations": [
+                                                                            {
+                                                                                "groupId": "60070617",
+                                                                                "variationId": "185996766"
+                                                                            }
+                                                                        ],
+                                                                        "price": 35900
+                                                                    },
+                                                                    {
+                                                                        "variations": [
+                                                                            {
+                                                                                "groupId": "60070617",
+                                                                                "variationId": "185996769"
+                                                                            }
+                                                                        ],
+                                                                        "price": 37900
+                                                                    },
+                                                                    {
+                                                                        "variations": [
+                                                                            {
+                                                                                "groupId": "60070617",
+                                                                                "variationId": "185996771"
+                                                                            }
+                                                                        ],
+                                                                        "price": 38900
+                                                                    },
+                                                                    {
+                                                                        "variations": [
+                                                                            {
+                                                                                "groupId": "60070617",
+                                                                                "variationId": "185996773"
+                                                                            }
+                                                                        ],
+                                                                        "price": 41900
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "defaultPrice": 35900,
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "78885245"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433913",
+                                                            "name": "Kadhai Paneer Melts",
+                                                            "category": "Appetizers",
+                                                            "description": "Thin & Crispy crust, loaded with spiced paneer, capsicum, onion, mozzarella cheese, flavorful Kadhai sauce, folded over and baked, then brushed with herbed butter and sprinkled with Makhni seasoning. 269.9 Kcal/100g. Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/e8d40793-e9d1-46cf-b62b-9045ee601e3d_3cf918ac-07c4-4223-8a91-d3688a3e950c.png_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 29900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "101046935"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "135337391",
+                                                            "name": "Cheezy Cheese Chicken & Loaded BBQ Non-Veg Combo",
+                                                            "category": "Appetizers",
+                                                            "description": "Serves 1 | Satisfy your non veg cravings with Cheezy Cheese Chicken & Loaded Chicken BBQ Melts. Cheezy Cheese Chicken Melts : (268 Kcal/100g), Loaded BBQ Non-Veg Melts: (330 Kcal/100g).",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/36f7eae1-c1b8-4d15-b8bb-120264974614_1832d753-a67b-4f1f-b6c9-c6d95d56e719.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "price": 48900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "2 ratings",
+                                                                    "ratingCountV2": "2"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "79614656"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433916",
+                                                            "name": "Royal Spice Paneer Melts",
+                                                            "category": "Appetizers",
+                                                            "description": "Thin & Crispy crust, loaded with spiced paneer, onion, mozzarella cheese, sauce packed with rich, aromatic spices, folded over and baked, then brushed with herbed butter and sprinkled with Makhni seasoning. 274.7 Kcal/100g. Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/e2958421-65be-4d90-807c-2cf2dce07bec_33bc4b1c-e28b-4100-b056-53452ce55686.png_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.6",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#D9EFEC",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_medium",
+                                                                    "ratingTextColor": "rating_medium",
+                                                                    "ratingCountTextColor": "rating_medium",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "101046939"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433919",
+                                                            "name": "Kadhai Chicken Melts",
+                                                            "category": "Appetizers",
+                                                            "description": "Thin & Crispy crust, loaded with chicken tikka, capsicum, onion, mozzarella cheese, flavorful Kadhai sauce, folded over and baked, then brushed with herbed butter and sprinkled with Makhni seasoning. 330.8 Kcal/100g. Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/8e245c16-043a-4cab-98a4-447b4f31b385_8347b5b1-e911-41b2-903c-b15b14bdc38d.png_compressed",
+                                                            "inStock": 1,
+                                                            "price": 30900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "101046931"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "132859608",
+                                                            "name": "Jalapeno Pepper Dip",
+                                                            "category": "Appetizers",
+                                                            "description": "Serves 1 | Cheesy jalapeno dip 20 gm (49 Kcal/100g) Contains Cereals containing Gluten (Wheat) & Soya.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/17/f0334c32-1b35-414e-803c-0114f826ac13_1e6c4d47-9b8e-4838-a347-a1309d97cbc6.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "36 ratings",
+                                                                    "ratingCountV2": "36"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "101649689"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433921",
+                                                            "name": "Royal Spice Chicken Melts",
+                                                            "category": "Appetizers",
+                                                            "description": "Thin & Crispy crust, loaded with chicken tikka, malai tikka, onion, mozzarella cheese, sauce packed with rich, aromatic spices, folded over and baked, then brushed with herbed butter and sprinkled with Makhni seasoning. 334.86 Kcal/100g. Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/856354fc-9eb6-46e5-b31b-6ad2a4b48508_7ad6e980-4d81-4a19-8286-aec4348bdb6f.png_compressed",
+                                                            "inStock": 1,
+                                                            "price": 27900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "101046937"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "132859607",
+                                                            "name": "Veg Mayonnaise Dip",
+                                                            "category": "Appetizers",
+                                                            "description": "Serves 1 | Veg mayonnaise dip 20 gm (55 Kcal/100g). Contains Cereals containing Gluten (Wheat) & Soya.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/d5e73b0a-6921-4886-a20b-05df6f68884f_c6a23139-44b4-42ef-ab12-9e336dc783db.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#D9EFEC",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_medium",
+                                                                    "ratingTextColor": "rating_medium",
+                                                                    "ratingCountTextColor": "rating_medium",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "41295168"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "132859606",
+                                                            "name": "Tomato Ketchup",
+                                                            "category": "Appetizers",
+                                                            "description": "Serves 1 | Ketchup sachet (11 Kcal/100g)",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/58a496f7-2659-4485-b709-ae792549355f_69a9a228-08cc-4d6c-94dd-52024b469510.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 95,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "224 ratings",
+                                                                    "ratingCountV2": "224"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "79614663"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433940",
+                                                            "name": "Baked Royal Spice Chicken Wings 4pc",
+                                                            "category": "Appetizers",
+                                                            "description": "Chicken wings baked in a sauce full of rich, aromatic spices. It's a flavor fiesta! 4pc. 228.8 Kcal/100g.  Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/7ef3386c-d225-4d6e-9765-ab902b55421d_f4b4bacc-8271-4028-82e1-2dc941f59488.png_compressed",
+                                                            "inStock": 1,
+                                                            "price": 21900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "101046926"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433944",
+                                                            "name": "Baked Royal Spice Chicken Wings 6pc",
+                                                            "category": "Appetizers",
+                                                            "description": "Chicken wings baked in a sauce full of rich, aromatic spices. It's a flavor fiesta! 6pc. 228.8 Kcal/100g.  Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/add1bb13-bf9e-461b-a486-04b4949408a0_3aa0e4ba-48f8-4219-919d-a25b6e1acd50.png_compressed",
+                                                            "inStock": 1,
+                                                            "price": 25900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "1 rating",
+                                                                    "ratingCountV2": "1"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "101046927"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433946",
+                                                            "name": "Baked Southern Fiery Chicken Wings 4pc",
+                                                            "category": "Appetizers",
+                                                            "description": "Chicken wings baked in a fiery sauce, bursting with traditional southern spices. 4pc. 225.5 Kcal/100g.  Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/93c8624a-e669-4b66-8eb5-c1253b0b8a47_228e8749-6f80-48be-9bc8-1da25cdc4ee9.png_compressed",
+                                                            "inStock": 1,
+                                                            "price": 21900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "2 ratings",
+                                                                    "ratingCountV2": "2"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "101046928"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "168433948",
+                                                            "name": "Baked Southern Fiery Chicken Wings 6pc",
+                                                            "category": "Appetizers",
+                                                            "description": "Chicken wings baked in a fiery sauce, bursting with traditional southern spices. 6pc. 225.5 Kcal/100g.  Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/19/0c5730ab-4f80-4e2f-8cf7-705396620bec_2812773f-c3c4-4c57-88fb-1e988f5e1ad9.png_compressed",
+                                                            "inStock": 1,
+                                                            "price": 25900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "101046929"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "132859605",
+                                                            "name": "Momo Dip",
+                                                            "category": "Appetizers",
+                                                            "description": "Serves 1 | Schezwan dip (18 Kcal/100g)",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/17/902e7ef1-71a7-4899-975d-88e96585f6a8_9db6ac0b-d3af-4374-b521-e187a3bdd82f.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG",
+                                                                "portionSize": "Serves 1"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#D9EFEC",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_medium",
+                                                                    "ratingTextColor": "rating_medium",
+                                                                    "ratingCountTextColor": "rating_medium",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "parentId": "37766992"
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }]
