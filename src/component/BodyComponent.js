@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState,useEffect} from "react";
 import "../css/index.css";
 
 import RestuarantComponent from "./RestuarantComponent";
@@ -7,6 +7,11 @@ import resData from "../response.json";
 const BodyComponent = () => {
   
   const [restaurants, setRestaurants] = useState(resData);
+  useEffect( ()=>{
+    console.log("useeffect will render once the body components is loaded");
+  },[]);
+
+  console.log("Body Component Rendered, this console will run first, then after useeffect console will run");
   return (
    
     <div className="body-container">

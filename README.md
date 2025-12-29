@@ -77,3 +77,12 @@ Read more :https://stackoverflow.com/questions/42773892/wrong-components-rendere
     eg: export default <module_name>;
       import <variable or module_name> from file_path;
         eg: import Headercomponent from file_path; //default import doesnt have {} curly braces
+
+## React-Fiber Architecture - Read about it
+
+##useEffect will mounted once the component is rendered
+
+-------------------   ---------------------------    -----------------------------   ----------------------------
+Loads the web page  -> Render the component first ->  API call will happen inside ->  Re-render the component with
+-------------------   ----------------------------   useEffect()                      API response
+                                                    ------------------------------   -----------------------------
