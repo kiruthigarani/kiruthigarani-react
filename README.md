@@ -12,7 +12,6 @@ Communicates the update to the browser via WebSockets.
 Replaces the old code with the new code in the running application, preserving the application's state (e.g., form input, scroll position). 
 - Parcel use file watching algorithm written in c++
 - Parcel use caching so it gives faster development build
-
 - image optimization
 - minification
 - bundling
@@ -23,7 +22,6 @@ Replaces the old code with the new code in the running application, preserving t
 - error handling
 - error diagnostic
 - will give https
-
 - read more about parcel from official doc
 
 
@@ -86,3 +84,7 @@ Read more :https://stackoverflow.com/questions/42773892/wrong-components-rendere
 Loads the web page  -> Render the component first ->  API call will happen inside ->  Re-render the component with
 -------------------   ----------------------------   useEffect()                      API response
                                                     ------------------------------   -----------------------------
+
+
+
+swiggy's API - https://www.swiggy.com/api/seo/getListing?lat=9.9435367&lng=78.0537813&apiV2=true
