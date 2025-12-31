@@ -19,7 +19,13 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <AppComponent />,
-    children: [
+    children: [ 
+        /* nested routes which allows us the rendering of multiple components based 
+        on the url path,where Outlet is used to render the child component 
+        inside the parent component (header component here)
+
+        All components will have header component as common
+        */
       {
         path: "/",
         element: <BodyComponent />,

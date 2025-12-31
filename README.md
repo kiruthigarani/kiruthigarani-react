@@ -110,12 +110,70 @@ Router :
 1. Install router >> npm i react-router-dom
 2. import {createBrowserRouter, RouteProvider} from "react-router"
 3. create path using:
+
+const AppComponent = () => {
+    return (
+        <div className="app-container">
+            <HeaderComponent />
+            <Bodycomponent />
+        </div>
+    );
+}
     const routerPath = createBrowserRouter = ([
         {
             path : "/",
-            element: <component />
-        }
+            element: <Bodycomponent />
+        },
+         {
+            path : "/",
+            element: <Aboutcomponent />
+        },
+         {
+            path : "/",
+            element: <Contactcomponent />
+        },
     ])
+
+    In above example, we won't get the header as common for all other components
+ -------------------------------------------------------------------------------------------
+   import { createBrowserRouter,RouterProvider, Outlet } from "react-router";
+
+   const AppComponent = () => {
+    return (
+        <div className="app-container">
+            <HeaderComponent />
+            <Outlet />
+        </div>
+    );
+}
+    const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppComponent />,
+    children: [ 
+        /* nested routes which allows us the rendering of multiple components based 
+        on the url path,where Outlet is used to render the child component 
+        inside the parent component (header component here)
+
+        All components will have header component as common
+        */
+      {
+        path: "/",
+        element: <BodyComponent />,
+      },
+      {
+        path: "/about",
+        element: <div>About Page</div>,
+      },
+      {
+        path: "/contact",
+        element: <div>Contact Page</div>,
+      },
+    ],
+    errorElement: <ErrorComponent />,
+  }
+]);
+
 
 4. useRouterError:  
     >> This hook allows you to access the current error state of the router.
