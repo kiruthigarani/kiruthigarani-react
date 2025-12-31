@@ -88,3 +88,35 @@ Loads the web page  -> Render the component first ->  API call will happen insid
 
 
 swiggy's API - https://www.swiggy.com/api/seo/getListing?lat=9.9435367&lng=78.0537813&apiV2=true
+
+
+Home work:
+Implement load more restaraunt details while scrolling
+
+
+By-pass cors issue:
+1. install chrome extension: Allow CORS
+2. got to https://corsproxy.io/, copy the cors url and paste it before the api url in code
+
+
+useEffect :
+1. if no dependency array in useEffect => useEffect will call  everytime the component rendered
+2. if dependency array is empty => useEffect will call on initial render (only once)
+3. If dependency array is not empty => useEffect will call, whenever the value in dependcy array updated or changed
+
+
+
+Router : 
+1. Install router >> npm i react-router-dom
+2. import {createBrowserRouter, RouteProvider} from "react-router"
+3. create path using:
+    const routerPath = createBrowserRouter = ([
+        {
+            path : "/",
+            element: <component />
+        }
+    ])
+
+4. useRouterError:  
+    >> This hook allows you to access the current error state of the router.
+    >> import from react-router
