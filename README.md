@@ -228,3 +228,6 @@ useEffect(() => {
       clearInterval(interval);
     };
   }, []);
+
+  ## Class based component life cycle method : https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+  ## super props in class based component : https://namastedev.com/blog/why-we-write-superprops-in-react-class-based-component-2/
