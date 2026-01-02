@@ -240,3 +240,9 @@ useEffect(() => {
 ## 1. One Reason to Change: A class should have just one primary responsibility, so any changes related to that responsibility only affect that one class.
 ## 2. Actor-Based Definition: A module should be responsible to one actor (stakeholder/user group).
 ## 3. Gather Same-Reason Changes: Collect things that change for the same reasons; separate things that change for different reasons. 
+
+
+## . navigator.onLine is a boolean that reflects the browser's network status, but be aware it isn't always perfectly reliable across all browsers and edge cases.
+
+If you want a slightly safer or more explicit variant, prefer globalThis (available in both browsers and Node) and choose a fallback that fits your app (true means “assume online”):
+() => (typeof globalThis.navigator !== 'undefined' ? globalThis.navigator.onLine : true)
