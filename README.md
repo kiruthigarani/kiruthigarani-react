@@ -197,3 +197,34 @@ const AppComponent = () => {
 4. useRouterError:  
     >> This hook allows you to access the current error state of the router.
     >> import from react-router
+
+
+
+5. power of useEffect
+useEffect(() => {
+    getResponse();
+
+    const interval = setInterval(() => {
+       console.log("useEffect called");
+      
+    }, 1000);
+      
+  }, []);
+
+  if you write a setInterval inside useEffect, this will be called on all the component in background ,that makes your app not scalable.
+  Below is to cleanup the interval. Once we cleaned the event, it will call only on the require component.
+
+
+  useEffect(() => {
+    getResponse();
+
+    const interval = setInterval(() => {
+       console.log("useEffect called");
+      
+    }, 1000);
+    
+    return () => {
+      console.log("useEffect cleanup");
+      clearInterval(interval);
+    };
+  }, []);

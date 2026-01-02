@@ -15,6 +15,17 @@ const BodyComponent = () => {
 
   useEffect(() => {
     getResponse();
+
+    const interval = setInterval(() => {
+       console.log("useEffect called");
+      
+    }, 1000);
+    
+    return () => {
+      //this will allow to cleanup the interval, and running the logic on every component
+      console.log("useEffect cleanup");
+      clearInterval(interval);
+    };
   }, []);
 
   const getResponse = async () => {
