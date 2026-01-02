@@ -19,6 +19,5 @@ import "../css/index.css";
                     </div>
                 </div>
  )
- 
 }
 export default RestuarantComponent;

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router";
 import "../css/index.css";
 import ShimmerComponent from "./ShimmerComponent";
 import RestuarantComponent from "./RestuarantComponent";
 import resData from "../response.json";
+
 
 const BodyComponent = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -74,10 +76,13 @@ const BodyComponent = () => {
           {filterRestaurants.map((restaurant) => {
             {
               return (
-                <RestuarantComponent
-                  key={restaurant.info.id}
-                  resData={restaurant.info}
-                />
+                <Link to={`/restaurant/123`} key={restaurant.info.id}>
+                  <RestuarantComponent
+                    
+                    resData={restaurant.info}
+                  />
+                </Link>
+                
               );
             }
           })}

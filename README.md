@@ -104,6 +104,25 @@ useEffect :
 2. if dependency array is empty => useEffect will call on initial render (only once)
 3. If dependency array is not empty => useEffect will call, whenever the value in dependcy array updated or changed
 
+Types of routing:
+
+with server-side routing you download an entire new webpage whenever you click on a link,
+with client-side routing the webapp downloads, processes and displays new data for you.
+Imagine the user clicking on a simple link: <a href="/hello">Hello!</a>
+
+On a webapp that uses server side routing:
+
+The browser detects that the user has clicked on an anchor element.
+It makes an HTTP GET request to the URL found in the href tag
+The server processes the request, and sends a new document (usually HTML) as a response.
+The browser discards the old webpage altogether, and displays the newly downloaded one.
+
+If the webapp uses client side routing:
+
+The browser detects that the user has clicked on an anchor element, just like before.
+A client side code (usually the routing library) catches this event, detects that the URL is not an external link, and then prevents the browser from making the HTTP GET request.
+The routing library then manually changes the URL displayed in the browser (using the HTML5 history API, or maybe URL hashbangs on older browsers)
+The routing library then changes the state of the client app. 
 
 
 Router : 

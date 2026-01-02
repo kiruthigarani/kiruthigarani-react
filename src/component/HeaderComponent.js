@@ -10,7 +10,10 @@ const Header = () => {
     return (
         <div className="header-container">
             <div className="logo">
-             <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_260/portal/m/seo/Logos/Swiggy/Swiggy%20logo-2.png" alt="Kiruthiga logo" />
+                <Link to="/">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_260/portal/m/seo/Logos/Swiggy/Swiggy%20logo-2.png" alt="Kiruthiga logo" />
+                </Link>
+             
             </div>
             <div className="nav-items">
                 <ul>

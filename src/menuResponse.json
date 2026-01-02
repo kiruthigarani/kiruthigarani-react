@@ -1,0 +1,4350 @@
+[{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Jkans Foods",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "1119611",
+              "name": "Jkans Foods",
+              "city": "Madurai",
+              "slugs": {
+                "restaurant": "jkans-hotel-periyar-periyar-4",
+                "city": "madurai"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/f10fe3af-9d4c-409e-9e40-f92cb3ff3068_1119611.jpg",
+              "locality": "Vadampokki St",
+              "areaName": "West Masi St",
+              "costForTwo": "25000",
+              "costForTwoMessage": "₹250 for two",
+              "cuisines": [
+                "Chinese",
+                "Biryani"
+              ],
+              "avgRating": 4.5,
+              "feeDetails": {
+                "restaurantId": "1119611",
+                "fees": [
+                  {
+
+                  }
+                ]
+              },
+              "parentId": "686214",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "764 ratings",
+              "sla": {
+                "restaurantId": "1119611",
+                "deliveryTime": 31,
+                "minDeliveryTime": 30,
+                "maxDeliveryTime": 35,
+                "lastMileTravel": 8.6,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                "zoneId": 776,
+                "slaString": "30-35 MINS",
+                "lastMileTravelString": "8.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2026-01-01 00:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Get every item @ 75",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item @ 75",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "70% off| Use ENDOFYEARSALE",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item @ 75",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "70% off up to ₹140 | Use ENDOFYEARSALE",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+
+              },
+              "slugString": "jkans-hotel-periyar-periyar-4",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "NO-52, WEST VADAMPOKKI STREET, MADURAI, PH-9788864665 ,Madurai Corporation Ward-79,Madurai,Tamil Nadu-625001\t"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Chinese,Biryani"
+                }
+              ],
+              "logo": "Brand logo/MOJOPizza",
+              "totalRatings": 764,
+              "aggregatedDiscountInfoV2": {
+                "header": "Get every item @ 75",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item @ 75",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "70% off| Use ENDOFYEARSALE",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item @ 75",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "70% off up to ₹140 | Use ENDOFYEARSALE",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 139,
+                  "maxValue": 199,
+                  "priority": 4,
+                  "couponCode": "ENDOFYEARSALE",
+                  "discountInfo": {
+                    "discountType": "Percentage",
+                    "value": 70
+                  },
+                  "lockedMessage": "Add items worth ₹\u003Camount\u003E to save upto ₹140 | Code ENDOFYEARSALE",
+                  "unlockedMessage": "ENDOFYEARSALE Coupon Unlocked! Use it to save upto ₹140",
+                  "logoCtx": {
+
+                  },
+                  "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/1119611"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {
+
+                },
+                "subTitle": {
+
+                },
+                "message": {
+
+                },
+                "customIcon": {
+
+                },
+                "commsStyling": {
+
+                }
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+
+                },
+                "presentation": {
+
+                }
+              },
+              "latLong": "9.9149382,78.1157088",
+              "backgroundImageOverlayInfo": {
+
+              },
+              "featuredSectionInfo": {
+
+              }
+            },
+            "analytics": {
+
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
+            "sectionId": "MENU_ITEM_CART_UPDATE_POP_CROUTON"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "ITEMS AT ₹75",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "71b87919-46ab-4e1d-92d7-3699a0922a68"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "description": "ON SELECT ITEMS |",
+                      "offerType": "offers",
+                      "restId": "1119611",
+                      "offerLogo": "offers/DealRush_Offer_Icon.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "70% OFF UPTO ₹140",
+                      "offerTag": "DEFAULT",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "e7a56ff1-d567-4d4a-bd05-fb21682fac84"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE ENDOFYEARSALE",
+                      "description": "ABOVE ₹199",
+                      "offerType": "offers",
+                      "restId": "1119611",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE ENDOFYEARSALE"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "26eca0d7-259e-4989-ae5c-569105b3c526"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLATDEAL",
+                      "description": "ABOVE ₹599",
+                      "offerType": "offers",
+                      "restId": "1119611",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLATDEAL"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹250",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/12/30/3db2a567-94e3-44a9-94e3-590ed4fd5f6c_Axis.png",
+                      "offerIds": [
+                        "9c25bce3-b11a-4ca6-b270-f7464e9b8551"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXISCC250",
+                      "description": "ABOVE ₹500",
+                      "offerType": "offers",
+                      "restId": "1119611",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/12/30/3db2a567-94e3-44a9-94e3-590ed4fd5f6c_Axis.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE AXISCC250"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹100",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/12/20/06a1fedc-3845-4e9b-9f00-03bc6136a689_RBLMenuVisibilityLogo.png",
+                      "offerIds": [
+                        "5a4ac231-6784-4db8-a2ab-6c75c6562741"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE RBLCCFEST",
+                      "description": "ABOVE ₹599",
+                      "offerType": "offers",
+                      "restId": "1119611",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/12/20/06a1fedc-3845-4e9b-9f00-03bc6136a689_RBLMenuVisibilityLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE RBLCCFEST"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {
+
+                  }
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {
+
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174696969",
+                              "name": "Chicken Basmati Biryani",
+                              "category": "Biryani",
+                              "description": "Basmati Chicken Biryani is a classic and aromatic Indian rice dish made with long-grain basmati rice and marinated chicken cooked together with a blend of fragrant spices.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/5627adbe-3031-4ce1-a7c2-f51099f8d693_90d4efc6-ef66-44c0-bfed-fbb825ee1742.jpg",
+                              "inStock": 1,
+                              "price": 27900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "33 ratings",
+                                  "ratingCountV2": "33"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449081"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026059",
+                              "name": "Suspense Chicken Fried Rice",
+                              "category": "Our Special",
+                              "description": "Chicken Suspense Fried Rice is a bold and flavorful Indo-Chinese fusion dish with a spicy twist and a surprise element in every bite.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/283cdccf-e554-4d29-b55e-7438d1f48b47_8376b1ff-d218-4329-893a-82f2a7a448d6.jpg_compressed",
+                              "inStock": 1,
+                              "price": 28000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "15 ratings",
+                                  "ratingCountV2": "15"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710880"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026007",
+                              "name": "Chicken Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Chicken Fried Rice is a savory and satisfying dish featuring tender chunks of chicken mixed with stir-fried rice and a variety of vegetables. The chicken is cooked until golden and tender, then combined with aromatic garlic and onions. The rice is tossed with soy sauce and, optionally, oyster sauce for a rich umami flavor. The dish often includes colorful vegetables like bell peppers, carrots, and peas, adding both texture and nutrition",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/ba5c373d-53a5-4cc9-b895-038dd0b6bffd_ba84ef46-7305-4914-a5e3-eacbc8b6e872.jpg",
+                              "inStock": 1,
+                              "price": 18000,
+                              "finalPrice": 10000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "265 ratings",
+                                  "ratingCountV2": "265"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "7335c211-e18a-4f56-b52b-55ceee485c9c"
+                              ],
+                              "parentId": "110710872",
+                              "offerCategory": "OFFER_CATEGORY_DEAL_RUSH"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026043",
+                              "name": "Schezwan Chicken Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Schezwan Chicken Fried Rice is a delicious Indo-Chinese dish that combines tender chicken pieces with spicy Schezwan sauce and fried rice.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/2/f501d6b7-92ab-4917-8860-7820fc293f83_9a3f830f-7172-4634-b076-e8da6a42ce2a.jpg_compressed",
+                              "inStock": 1,
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "71 ratings",
+                                  "ratingCountV2": "71"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449086"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026036",
+                              "name": "Veg Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Veg Fried Rice is a popular Asian dish that's known for its simplicity and versatility. It's made with cooked rice, stir-fried with a variety of vegetables, and seasoned with soy sauce,  sesame oil, and other aromatics.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/15/def69782-527b-47e9-adab-8753bd1bbd3b_a2e38714-7a47-4fc9-a282-e3f44fb6b79b.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "35 ratings",
+                                  "ratingCountV2": "35"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710888"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026008",
+                              "name": "Chicken Noodles",
+                              "category": "Noodles",
+                              "description": "Chicken Noodles are a hearty and flavorful dish featuring tender chicken pieces mixed with stir-fried noodles and vegetables.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/2a336b71-1814-42f5-8314-52be423b9bb9_be3540a6-7b69-4cf1-93f7-42157d226538.jpg",
+                              "inStock": 1,
+                              "price": 18000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "52 ratings",
+                                  "ratingCountV2": "52"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389384"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED",
+                      "subtitleSuffix": {
+
+                      },
+                      "categoryId": "-1"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Fried Rice",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026007",
+                              "name": "Chicken Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Chicken Fried Rice is a savory and satisfying dish featuring tender chunks of chicken mixed with stir-fried rice and a variety of vegetables. The chicken is cooked until golden and tender, then combined with aromatic garlic and onions. The rice is tossed with soy sauce and, optionally, oyster sauce for a rich umami flavor. The dish often includes colorful vegetables like bell peppers, carrots, and peas, adding both texture and nutrition",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/ba5c373d-53a5-4cc9-b895-038dd0b6bffd_ba84ef46-7305-4914-a5e3-eacbc8b6e872.jpg",
+                              "inStock": 1,
+                              "price": 18000,
+                              "finalPrice": 10000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "265 ratings",
+                                  "ratingCountV2": "265"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "7335c211-e18a-4f56-b52b-55ceee485c9c"
+                              ],
+                              "parentId": "110710872",
+                              "offerCategory": "OFFER_CATEGORY_DEAL_RUSH"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026043",
+                              "name": "Schezwan Chicken Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Schezwan Chicken Fried Rice is a delicious Indo-Chinese dish that combines tender chicken pieces with spicy Schezwan sauce and fried rice.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/2/f501d6b7-92ab-4917-8860-7820fc293f83_9a3f830f-7172-4634-b076-e8da6a42ce2a.jpg_compressed",
+                              "inStock": 1,
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "71 ratings",
+                                  "ratingCountV2": "71"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449086"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026036",
+                              "name": "Veg Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Veg Fried Rice is a popular Asian dish that's known for its simplicity and versatility. It's made with cooked rice, stir-fried with a variety of vegetables, and seasoned with soy sauce,  sesame oil, and other aromatics.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/15/def69782-527b-47e9-adab-8753bd1bbd3b_a2e38714-7a47-4fc9-a282-e3f44fb6b79b.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "35 ratings",
+                                  "ratingCountV2": "35"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710888"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026034",
+                              "name": "Egg Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Egg Fried Rice is a classic and versatile dish that's quick to prepare and packed with flavor",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/521e888c-674d-43d1-ada7-152bb268aa4a_aa325739-70c7-44f7-9ba2-c755d39bc021.jpg",
+                              "inStock": 1,
+                              "price": 14000,
+                              "finalPrice": 7500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "71b87919-46ab-4e1d-92d7-3699a0922a68"
+                              ],
+                              "parentId": "110710873",
+                              "offerCategory": "OFFER_CATEGORY_DEAL_RUSH",
+                              "offerHeader": "Only till",
+                              "offerSubHeader": "5:00 PM"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026031",
+                              "name": "Prawns Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Prawns Fried Rice is a flavorful and satisfying dish featuring succulent prawns stir-fried with vegetables and rice. This dish combines the sweetness of prawns with the savory taste of fried rice, making it a perfect meal for seafood lovers.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/d8e7874b-1749-4210-891a-a5698c47db5d_d189e088-12d9-4dbb-ba09-253a7c8f3ccc.jpg",
+                              "inStock": 1,
+                              "price": 30900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710879"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026047",
+                              "name": "Schezwan Egg Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Egg Schezwan Fried Rice is a vibrant, spicy, and flavorful Indo-Chinese dish made by stir-frying cooked rice with scrambled eggs, vegetables, and a tangy, spicy Schezwan sauce.",
+                              "inStock": 1,
+                              "price": 17000,
+                              "finalPrice": 9500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "cd75477b-0225-4df8-bc18-62c5fb861ac3"
+                              ],
+                              "parentId": "110449087",
+                              "offerCategory": "OFFER_CATEGORY_DEAL_RUSH",
+                              "offerHeader": "Only till",
+                              "offerSubHeader": "5:00 PM"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026044",
+                              "name": "Schezwan Prawns Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Schezwan Prawn Fried Rice is a spicy and flavorful dish that combines succulent prawns with the tangy heat of Schezwan sauce.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/26/0a4c6163-0a4c-4a28-8b9d-666e028aeec1_9b5ba352-232b-48bd-bb83-792c6e44245c.jpeg",
+                              "inStock": 1,
+                              "price": 33500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449092"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026033",
+                              "name": "Mixed Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Mixed Fried Rice is a versatile and delicious dish that combines a variety of vegetables and sometimes meats, all stir-fried with rice and seasoned with flavorful sauces. Its perfect for using up leftover rice and can be customized based on what you have on hand",
+                              "imageId": "dzja2ssfs5uhyltcqkc8",
+                              "inStock": 1,
+                              "price": 38900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710875"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026049",
+                              "name": "Schezwan Veg Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Schezwan Veg Fried Rice is a spicy and tangy variation of fried rice with a distinctive Schezwan flavor profile.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 17000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449095"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026035",
+                              "name": "Paneer Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Paneer Fried Rice is a delicious and filling dish made with cooked rice, sauteed paneer, and mixed vegetables.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/28/f3fc0012-7291-43cf-a9ae-b9a33dc7ec85_aaef9a57-7332-4734-9f16-c371352e4fee.jpg",
+                              "isVeg": 1,
+                              "price": 17000,
+                              "finalPrice": 9500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "25 ratings",
+                                  "ratingCountV2": "25"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "cd75477b-0225-4df8-bc18-62c5fb861ac3"
+                              ],
+                              "parentId": "110710878",
+                              "offerCategory": "OFFER_CATEGORY_DEAL_RUSH",
+                              "offerHeader": "Only till",
+                              "offerSubHeader": "5:00 PM"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026048",
+                              "name": "Schezwan Paneer Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Schezwan Paneer Fried Rice combines the spicy, tangy flavors of Schezwan sauce with the creamy texture of paneer and the satisfying crunch of vegetables.",
+                              "isVeg": 1,
+                              "price": 19900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449091"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026046",
+                              "name": "Schezwan Mixed Fried Rice",
+                              "category": "Fried Rice",
+                              "description": "Schezwan Mix Fried  Rice is a vibrant and flavorful Indo-Chinese dish that combines fragrant rice with an assortment of vegetables, all stir-fried in a spicy, tangy Schezwan sauce.",
+                              "price": 41900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449089"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/ba5c373d-53a5-4cc9-b895-038dd0b6bffd_ba84ef46-7305-4914-a5e3-eacbc8b6e872.jpg",
+                      "categoryId": "70360676"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Noodles",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026008",
+                              "name": "Chicken Noodles",
+                              "category": "Noodles",
+                              "description": "Chicken Noodles are a hearty and flavorful dish featuring tender chicken pieces mixed with stir-fried noodles and vegetables.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/2a336b71-1814-42f5-8314-52be423b9bb9_be3540a6-7b69-4cf1-93f7-42157d226538.jpg",
+                              "inStock": 1,
+                              "price": 18000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "52 ratings",
+                                  "ratingCountV2": "52"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389384"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026051",
+                              "name": "Schezwan Chicken Noodles",
+                              "category": "Noodles",
+                              "description": "Schezwan Chicken Noodles is a popular Indo-Chinese dish that combines spicy Schezwan sauce with tender chicken and stir-fried noodles.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/ba4acd4a-c769-435f-bfc8-c9df5cd58e68_bea5b4bb-274c-4601-8ffe-a854b5359cbf.jpg",
+                              "inStock": 1,
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "10 ratings",
+                                  "ratingCountV2": "10"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389390"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026037",
+                              "name": "Prawns Noodles",
+                              "category": "Noodles",
+                              "description": "Prawn Noodles are a delicious and satisfying dish featuring tender prawns stir-fried with noodles and vegetables.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/42999a20-ff96-45d8-aefd-5a54c9f7036c_044ad4bf-d212-4155-9412-a49a7569f7a4.jpeg",
+                              "inStock": 1,
+                              "price": 30900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389389"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026041",
+                              "name": "Paneer Noodles",
+                              "category": "Noodles",
+                              "description": "Paneer Noodles are a delightful twist on traditional vegetable noodles, featuring cubes of paneer (Indian cottage cheese) for added protein and flavor.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/24/a56dcbef-8fbf-4daf-ad77-309c7aa4e0c9_d351b0e7-24e3-4e6d-ba72-4da999a957e2.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 17000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389388"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026040",
+                              "name": "Egg Noodles",
+                              "category": "Noodles",
+                              "description": "Egg Noodles are a versatile and delicious type of noodle that can be used in a variety of dishes, from stir-fries to soups. They are known for their slightly chewy texture and rich flavor.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/11/497cada5-19fb-4d45-ac7b-763bf145cbbd_e6b2db42-6c98-4060-9f97-24167bdcfbad.jpg",
+                              "inStock": 1,
+                              "price": 14000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389385"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026056",
+                              "name": "Schezwan Paneer Noodles",
+                              "category": "Noodles",
+                              "description": "Schezwan Prawn Noodles are a spicy and flavorful dish featuring tender prawns and noodles tossed in a tangy Schezwan sauce.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.3",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#D9EFEC",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389393"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026055",
+                              "name": "Schezwan Egg Noodles",
+                              "category": "Noodles",
+                              "description": "Schezwan Egg Noodles is a spicy and flavorful dish from Indo-Chinese cuisine, combining egg noodles with a tangy, spicy Schezwan sauce and scrambled eggs.",
+                              "inStock": 1,
+                              "price": 17000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389391"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026057",
+                              "name": "Schezwan Veg Noodles",
+                              "category": "Noodles",
+                              "description": "Veg Schezwan Noodles is a bold, spicy, and flavorful Chinese-style stir-fry made with noodles, vegetables, and Schezwan sauce.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 17000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389395"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026042",
+                              "name": "Veg Noodles",
+                              "category": "Noodles",
+                              "description": "Veg Noodles are a vibrant and satisfying dish featuring stir-fried noodles mixed with a variety of vegetables. The noodles are cooked to a perfect texture and then tossed with finely chopped vegetables like bell peppers, carrots, and beans.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/4abbbbe5-dd9c-4a27-a6b5-d7ba8168dc95_d8174ec4-565b-48f0-8b74-055d2c23d4c6.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389396"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026052",
+                              "name": "Schezwan Prawns Noodles",
+                              "category": "Noodles",
+                              "description": "Schezwan Prawn Noodles are a spicy and flavorful dish featuring tender prawns and noodles tossed in a tangy Schezwan sauce.",
+                              "inStock": 1,
+                              "price": 33500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389394"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/2a336b71-1814-42f5-8314-52be423b9bb9_be3540a6-7b69-4cf1-93f7-42157d226538.jpg",
+                      "categoryId": "70360677"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174696969",
+                              "name": "Chicken Basmati Biryani",
+                              "category": "Biryani",
+                              "description": "Basmati Chicken Biryani is a classic and aromatic Indian rice dish made with long-grain basmati rice and marinated chicken cooked together with a blend of fragrant spices.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/5627adbe-3031-4ce1-a7c2-f51099f8d693_90d4efc6-ef66-44c0-bfed-fbb825ee1742.jpg",
+                              "inStock": 1,
+                              "price": 27900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "33 ratings",
+                                  "ratingCountV2": "33"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449081"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174696971",
+                              "name": "Basmati Bucket Biryani",
+                              "category": "Biryani",
+                              "description": "A grand feast of fragrant basmati rice layered with tender, spiced meat, slow-cooked to perfection and served in a generous bucket portion. Infused with traditional biryani masalas, herbs, and ghee, this biryani is perfect for family gatherings or group indulgence!",
+                              "inStock": 1,
+                              "price": 83900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110564750"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174696970",
+                              "name": "Basmati Tandoori Biryani",
+                              "category": "Biryani",
+                              "description": "A royal biryani made with long-grain basmati rice layered with succulent tandoori-marinated chicken, slow-cooked with aromatic spices and herbs. Infused with smoky flavors and served with raita or salna, this biryani offers a perfect balance of heat, fragrance, and richness.",
+                              "inStock": 1,
+                              "price": 32500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449080"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/5627adbe-3031-4ce1-a7c2-f51099f8d693_90d4efc6-ef66-44c0-bfed-fbb825ee1742.jpg",
+                      "categoryId": "63507399"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Our Special",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026059",
+                              "name": "Suspense Chicken Fried Rice",
+                              "category": "Our Special",
+                              "description": "Chicken Suspense Fried Rice is a bold and flavorful Indo-Chinese fusion dish with a spicy twist and a surprise element in every bite.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/283cdccf-e554-4d29-b55e-7438d1f48b47_8376b1ff-d218-4329-893a-82f2a7a448d6.jpg_compressed",
+                              "inStock": 1,
+                              "price": 28000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "15 ratings",
+                                  "ratingCountV2": "15"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710880"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026063",
+                              "name": "Suspense Chicken Noodles",
+                              "category": "Our Special",
+                              "description": "Chicken Suspense Noodles is a fiery and flavorful Indo-Chinese fusion dish loaded with spicy surprises. Soft and springy noodles are tossed with marinated, fried chicken pieces, crunchy vegetables, and a bold blend of sauces like soy, chili, and garlic.",
+                              "inStock": 1,
+                              "price": 28000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710881"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026050",
+                              "name": "Suspense Schezwan Chicken Rice",
+                              "category": "Our Special",
+                              "description": "A spicy and flavorful rice dish cooked with a special mix of Schezwan sauce and aromatic spices, tossed with tender shredded chicken, fried egg bits, and crunchy veggies. A bold Indo-Chinese creation packed with heat, texture, and taste in every bite",
+                              "inStock": 1,
+                              "price": 30900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "115962117"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026058",
+                              "name": "Suspense Schezwan Chicken Noodles",
+                              "category": "Our Special",
+                              "description": "A spicy street-style noodle dish tossed with Schezwan sauce, shredded chicken, fried egg, and crunchy veggies. Loaded with bold flavors, smoky wok aroma, and a perfect balance of heat and texture a must-try for noodle lovers craving an extra punch!",
+                              "inStock": 1,
+                              "price": 30900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "115962116"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026061",
+                              "name": "Suspense Prawns Fried Rice",
+                              "category": "Our Special",
+                              "description": "Prawns Suspense Fried Rice is a spicy and flavorful seafood twist on classic fried rice, packed with surprise elements in every bite.",
+                              "inStock": 1,
+                              "price": 37900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710886"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026065",
+                              "name": "Suspense Prawns Noodles",
+                              "category": "Our Special",
+                              "description": "Prawns Suspense Noodles is a spicy and thrilling seafood noodle dish that blends Indo-Chinese flavors with bold, unexpected twists.",
+                              "inStock": 1,
+                              "price": 37900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110710887"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/283cdccf-e554-4d29-b55e-7438d1f48b47_8376b1ff-d218-4329-893a-82f2a7a448d6.jpg_compressed",
+                      "categoryId": "63222785"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Tandoori",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026077",
+                              "name": "Indian masala tandoori",
+                              "category": "Tandoori",
+                              "description": "A classic tandoori dish where meat is marinated in a flavorful blend of yogurt, Indian spices, and herbs, then cooked in a traditional tandoor for a smoky, charred finish. Bursting with bold masala flavors and served sizzling hot a true taste of Indian grill mastery",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/320e473d-74df-4836-9544-2717a7211492_9072bc81-7c7b-405a-8ed2-4f18f676d6c2.jpg_compressed",
+                              "inStock": 1,
+                              "price": 23000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "61494328",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "price": 9500,
+                                        "default": 1,
+                                        "id": "189436218",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 39900,
+                                        "id": "189436219",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "10 ratings",
+                                  "ratingCountV2": "10"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#D9EFEC",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110449082"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/320e473d-74df-4836-9544-2717a7211492_9072bc81-7c7b-405a-8ed2-4f18f676d6c2.jpg_compressed",
+                      "categoryId": "63222787"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Arabian Shawarma",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026068",
+                              "name": "Chicken Platter Shawarma",
+                              "category": "Arabian Shawarma",
+                              "description": "A hearty Middle Eastern-style platter loaded with juicy, spiced shawarma chicken slices, served with pita bread or kuboos, garlic mayo, fresh veggies, and a side of crispy fries or hummus. A complete and satisfying meal bursting with bold, savory flavor\n",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "31 ratings",
+                                  "ratingCountV2": "31"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "111800324"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026067",
+                              "name": "Chicken Shawarma",
+                              "category": "Arabian Shawarma",
+                              "price": 14000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "21 ratings",
+                                  "ratingCountV2": "21"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "111800325"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026070",
+                              "name": "Peri Peri Platter Shawarma",
+                              "category": "Arabian Shawarma",
+                              "description": "Peri Peri Chicken Shawarma Plated is a fiery and flavorful fusion platter that features tender chicken marinated in a bold peri peri spice blend made with red chilies, garlic, lemon juice, paprika, and herbs then grilled to smoky perfection.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/bdf6e8ac-98b7-4d9c-a6cd-ea5475690410_df6e92fc-73ea-4f0a-88f5-22ddc7fa6f70.jpg",
+                              "price": 25500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340254"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026069",
+                              "name": "Peri Peri Shawarma",
+                              "category": "Arabian Shawarma",
+                              "description": "Peri Peri Chicken Shawarma is a spicy, flavor-packed wrap that fuses Middle Eastern shawarma with the bold heat of African-inspired peri peri spices.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/3484b817-af4d-4a4e-8b79-08a2d5206c5e_54425d10-635a-4d57-b441-1e0ecda72fa0.jpg_compressed",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "111800328"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026071",
+                              "name": "Mexican Shawarma",
+                              "category": "Arabian Shawarma",
+                              "description": "Mexican Shawarma is a bold fusion wrap that combines the rich spices of Middle Eastern shawarma with the zesty flair of Mexican cuisine.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/ddd1768d-15d1-4b94-8a1c-68298cf66949_4e641f40-cbdf-4f2b-8b7e-33876c4890f5.jpg_compressed",
+                              "price": 22500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340248"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026073",
+                              "name": "Jumbo Shawarma",
+                              "category": "Arabian Shawarma",
+                              "description": "A super-sized, flavor-packed shawarma roll filled with layers of juicy grilled chicken, crispy veggies, creamy garlic mayo, and spicy sauces all wrapped in soft pita or kuboos. Big on taste and perfect for serious shawarma cravings",
+                              "price": 28000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340247"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026072",
+                              "name": "Mexican Platter Shawarma",
+                              "category": "Arabian Shawarma",
+                              "description": "Mexican Shawarma Plated is a flavorful fusion dish served as a deconstructed platter instead of a wrap.",
+                              "price": 26900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "111800326"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026074",
+                              "name": "Pani Poori Shawarma",
+                              "category": "Arabian Shawarma",
+                              "description": "Pani Puri Chicken Shawarma is a unique and playful fusion dish that combines the crunchy delight of Indian street-style pani puri with the bold flavors of Middle Eastern chicken shawarma.",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340251"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/bdf6e8ac-98b7-4d9c-a6cd-ea5475690410_df6e92fc-73ea-4f0a-88f5-22ddc7fa6f70.jpg",
+                      "categoryId": "63222786"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Combos",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174698375",
+                              "name": "Combo 4",
+                              "category": "Combos",
+                              "description": "CHICKEN RICE-2 + CHICKEN SHAWARMA-4 + TANDOORI-FULL",
+                              "price": 132900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "256042747",
+                                  "groupName": "Curry",
+                                  "choices": [
+                                    {
+                                      "id": "141751025",
+                                      "name": "Butter Paneer Masala",
+                                      "price": 21000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751023",
+                                      "name": "Butter Chicken  Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751024",
+                                      "name": "Pepper Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751026",
+                                      "name": "Garlic chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751018",
+                                      "name": "Chilli Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751019",
+                                      "name": "Chettinad chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340245"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174698326",
+                              "name": "Combo 2",
+                              "category": "Combos",
+                              "description": "CHICKEN RICE-1 + CHICKEN SHAWARMA-2 + TANDOORI-1/2",
+                              "price": 69900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "256042737",
+                                  "groupName": "Curry",
+                                  "choices": [
+                                    {
+                                      "id": "141751025",
+                                      "name": "Butter Paneer Masala",
+                                      "price": 21000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751023",
+                                      "name": "Butter Chicken  Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751024",
+                                      "name": "Pepper Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751026",
+                                      "name": "Garlic chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751018",
+                                      "name": "Chilli Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751019",
+                                      "name": "Chettinad chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340243"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174698328",
+                              "name": "Combo 1",
+                              "category": "Combos",
+                              "description": "CHICKEN RICE-1 + CHICKEN SHAWARMA-1 + TANDOORI-1/4",
+                              "price": 40500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "255565350",
+                                  "groupName": "Curry",
+                                  "choices": [
+                                    {
+                                      "id": "141751025",
+                                      "name": "Butter Paneer Masala",
+                                      "price": 21000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751023",
+                                      "name": "Butter Chicken  Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751024",
+                                      "name": "Pepper Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751026",
+                                      "name": "Garlic chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751018",
+                                      "name": "Chilli Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751019",
+                                      "name": "Chettinad chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340242"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174698338",
+                              "name": "Combo 3",
+                              "category": "Combos",
+                              "description": "CHICKEN RICE-2 + CHICKEN SHAWARMA-2 + TANDOORI-FULL",
+                              "price": 104900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "256042638",
+                                  "groupName": "Curry",
+                                  "choices": [
+                                    {
+                                      "id": "141751025",
+                                      "name": "Butter Paneer Masala",
+                                      "price": 21000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751023",
+                                      "name": "Butter Chicken  Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751024",
+                                      "name": "Pepper Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751026",
+                                      "name": "Garlic chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751018",
+                                      "name": "Chilli Chicken Gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751019",
+                                      "name": "Chettinad chicken gravy",
+                                      "price": 21000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340244"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "categoryId": "63507890"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Gravy",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026097",
+                              "name": "Butter Chicken Gravy",
+                              "category": "Gravy",
+                              "description": "Butter Chicken Gravy, also known as Murgh Makhani, is a popular North Indian dish featuring tender chicken cooked in a creamy, tomato-based gravy with a rich butter flavor. It's a beloved dish for its smooth texture and balanced taste of spices, butter, and cream",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/6921174f-0984-412d-a667-9f0fc9f46f3b_6061171d-8a4b-438c-88c3-05c18ba371aa.jpg",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "255565452",
+                                  "groupName": "Naan",
+                                  "choices": [
+                                    {
+                                      "id": "141751021",
+                                      "name": "Plain naan",
+                                      "price": 6500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751022",
+                                      "name": "Butter naan",
+                                      "price": 8000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340236"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026096",
+                              "name": "Pepper Chicken Gravy",
+                              "category": "Gravy",
+                              "description": "Pepper Chicken Gravy is a flavorful South Indian dish known for its spicy kick, primarily from black pepper. This gravy combines tender chicken pieces with a robust blend of spices, including the warmth of freshly ground pepper, which gives the dish its signature heat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/23/4d3bf923-ce5b-4098-8933-21aee4067832_81dd8203-f696-4d38-af4c-9badc827c566.jpg",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "255565315",
+                                  "groupName": "Naan",
+                                  "choices": [
+                                    {
+                                      "id": "141751021",
+                                      "name": "Plain naan",
+                                      "price": 6500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751022",
+                                      "name": "Butter naan",
+                                      "price": 8000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340252"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026095",
+                              "name": "Chilli Chicken Gravy",
+                              "category": "Gravy",
+                              "description": "Chilli Chicken Gravy is a popular Indo-Chinese dish that combines succulent chicken pieces with a spicy, tangy, and slightly sweet gravy. This dish is characterized by its vibrant color, rich flavors, and the use of green chilies, soy sauce, and vinegar, giving it a unique taste.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/6921174f-0984-412d-a667-9f0fc9f46f3b_6061171d-8a4b-438c-88c3-05c18ba371aa.jpg",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "255565311",
+                                  "groupName": "Naan",
+                                  "choices": [
+                                    {
+                                      "id": "141751021",
+                                      "name": "Plain naan",
+                                      "price": 6500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751022",
+                                      "name": "Butter naan",
+                                      "price": 8000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#D9EFEC",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340241"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026098",
+                              "name": "Chettinad Chicken Gravy",
+                              "category": "Gravy",
+                              "description": "Chicken Chettinadu Gravy is a signature dish from the Chettinad region in Tamil Nadu, known for its fiery spiciness, aromatic flavors, and the use of freshly ground spices.",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "255565316",
+                                  "groupName": "Naan",
+                                  "choices": [
+                                    {
+                                      "id": "141751021",
+                                      "name": "Plain naan",
+                                      "price": 6500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751022",
+                                      "name": "Butter naan",
+                                      "price": 8000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340240"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026099",
+                              "name": "Garlic Chicken Gravy",
+                              "category": "Gravy",
+                              "description": "Garlic Chicken Gravy is a flavorful dish that highlights the rich aroma and taste of garlic. This dish features tender chicken cooked in a savory gravy infused with garlic, herbs, and spices.",
+                              "price": 21000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "255565322",
+                                  "groupName": "Naan",
+                                  "choices": [
+                                    {
+                                      "id": "141751021",
+                                      "name": "Plain naan",
+                                      "price": 6500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "141751022",
+                                      "name": "Butter naan",
+                                      "price": 8000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340246"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/6921174f-0984-412d-a667-9f0fc9f46f3b_6061171d-8a4b-438c-88c3-05c18ba371aa.jpg",
+                      "categoryId": "70360678"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Grilled",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026080",
+                              "name": "Indian Masala Grilled",
+                              "category": "Grilled",
+                              "description": "A flavorful grilled dish made with your choice of meat marinated in a rich blend of traditional Indian spices, herbs, and yogurt. Grilled to smoky perfection, it's juicy, aromatic, and packed with bold desi flavors ideal for spice lovers!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/24/2a844eaf-f11c-40b9-bdee-8d3253b40c95_ac09d478-594c-4e92-b3f4-6f0ba363798e.jpeg",
+                              "price": 28000,
+                              "variants": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "61494331",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "189436225",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Full",
+                                        "price": 27900,
+                                        "id": "189436226",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "33 ratings",
+                                  "ratingCountV2": "33"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110389387"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/7/24/2a844eaf-f11c-40b9-bdee-8d3253b40c95_ac09d478-594c-4e92-b3f4-6f0ba363798e.jpeg",
+                      "categoryId": "63222788"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Breads",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026090",
+                              "name": "Butter Naan",
+                              "category": "Breads",
+                              "description": "Butter Naan is a soft and fluffy Indian flatbread, enriched with butter for a rich, creamy texture. It pairs beautifully with a variety of Indian curries and dishes.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/24/fca229e5-f61d-4575-b49f-0bf02f04e7e1_9dc093bf-f843-4492-84ef-8e8148b7f0c2.jpeg",
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340237"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026092",
+                              "name": "Plain Naan",
+                              "category": "Breads",
+                              "description": "Plain Naan is a soft and fluffy Indian flatbread, traditionally cooked in a tandoor (clay oven), but it can also be made on a stovetop or in an oven",
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340255"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026094",
+                              "name": "Plain Roti",
+                              "category": "Breads",
+                              "description": "Plain Roti is a soft, unleavened Indian flatbread made from whole wheat flour (atta) and water, cooked on a hot griddle (tava).",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/24/0d3d82e8-6910-41e4-9d7f-17bfebf6eede_54d205df-ec78-4edd-8f6d-827c17c50b76.jpg",
+                              "isVeg": 1,
+                              "price": 6500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340256"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026093",
+                              "name": "Butter Roti",
+                              "category": "Breads",
+                              "description": "Butter Rotti (or Butter Roti) is a variation of the traditional roti, enhanced with butter for a richer flavor and softer texture.",
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110340239"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/7/24/fca229e5-f61d-4575-b49f-0bf02f04e7e1_9dc093bf-f843-4492-84ef-8e8148b7f0c2.jpeg",
+                      "categoryId": "63222790"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Mojitos",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026106",
+                              "name": "Blue Berry",
+                              "category": "Mojitos",
+                              "description": "A Blueberry Mojito is a refreshing and fruity variation of the classic mojito, with the added burst of sweet, tangy blueberries.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/48d2d4da-7386-4e41-895e-1eb4cfda626d_c1498ca9-e185-4b09-9eba-ac4a92ccd34f.jpg",
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110564751"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026107",
+                              "name": "Watermelon",
+                              "category": "Mojitos",
+                              "description": "The Watermelon Mojito is a refreshing and fruity twist on the classic mojito, combining the sweet, juicy flavor of watermelon with the traditional mint, lime, and rum base.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/7f7f9bf7-3c34-4dec-8464-f1c7d284aa85_07e02e59-38a8-4ac2-a3f7-1c876f7e5b54.jpg",
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "111331410"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026105",
+                              "name": "Lime Mint",
+                              "category": "Mojitos",
+                              "description": "Lime Mint Mojito is a refreshing, cool beverage made with the zesty tang of fresh lime, the soothing aroma of mint leaves, and a splash of fizz.",
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110508428"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "174026108",
+                              "name": "Pineapple",
+                              "category": "Mojitos",
+                              "description": "Pineapple Mojito is a tropical twist on the classic mojito, blending the sweetness of fresh pineapple with the zing of lime and the cool freshness of mint.",
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 1 pm, Thursday",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "110886011"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/8/8/48d2d4da-7386-4e41-895e-1eb4cfda626d_c1498ca9-e185-4b09-9eba-ac4a92ccd34f.jpg",
+                      "categoryId": "63222792"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 12421012001110"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Jkans Foods",
+                      "area": "West Masi St",
+                      "completeAddress": "NO-52, WEST VADAMPOKKI STREET, MADURAI, PH-9788864665 ,Madurai Corporation Ward-79,Madurai,Tamil Nadu-625001\t"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "114f9273-0899-4ec7-8f90-3b647965d10c",
+  "sid": "ov3abbbb-0646-4010-81fa-5defbe56fb0f",
+  "deviceId": "25c5f6ee-e6bd-6e0e-cba3-2b4f0413774e",
+  "csrfToken": "MAgF2rETKcAE-no9sT4oWiIPFZLQgQXoC8YcS3gs"
+}]
