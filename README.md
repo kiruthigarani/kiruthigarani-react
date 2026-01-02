@@ -246,3 +246,44 @@ useEffect(() => {
 
 If you want a slightly safer or more explicit variant, prefer globalThis (available in both browsers and Node) and choose a fallback that fits your app (true means “assume online”):
 () => (typeof globalThis.navigator !== 'undefined' ? globalThis.navigator.onLine : true)
+
+
+## Lazy loading is used to distributing my code into different chunks. Instead of loading everything at one go when a website loads, we can use Lazy Loading to split or render the component on-demand.
+
+## Different words for chunking is:
+ 1. Chunking
+ 2. code Splitting
+ 3. Dynamic bundling
+ 4. lazy loading
+ 5. on-demand loading
+ 6. dynamic import
+
+ ## syntax for heavy loadin
+ // MyHeavyComponent.js
+import React from 'react';
+
+const MyHeavyComponent = () => {
+  return <div>I am a heavy, lazy-loaded component!</div>;
+};
+
+export default MyHeavyComponent;
+
+## use lazy loadto optmize it
+// App.js
+import React, { lazy, Suspense } from 'react';
+
+// Use React.lazy() to create a lazy-loaded component
+const MyHeavyComponent = lazy(() => import('./MyHeavyComponent'));
+
+const App = () => {
+  return (
+    <div>
+      <h1>My Application</h1>
+      {/* Wrap the lazy component with Suspense */}
+      <Suspense fallback={<div>Loading content...</div>}>
+        <MyHeavyComponent />
+      </Suspense>
+    </div>
+  );
+};
+

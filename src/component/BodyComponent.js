@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,lazy, Suspense } from "react";
 import { Link } from "react-router";
 import "../css/index.css";
 import ShimmerComponent from "./ShimmerComponent";
-import RestuarantComponent from "./RestuarantComponent";
+//import RestuarantComponent from "./RestuarantComponent";
+const RestuarantComponent = lazy(()=>import("./RestuarantComponent"));
 import { ITEM_LIST_API } from "../utils/constants";
 import useOnlineStatus  from "../utils/useOnlineStatus";
+
 
 const BodyComponent = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -93,10 +95,11 @@ const BodyComponent = () => {
             {
               return (
                 <Link to={`/restaurant/123`} key={restaurant.info.id}>
-                  <RestuarantComponent
-                    
-                    resData={restaurant.info}
-                  />
+                  <Suspense fallback={<div>Loading...</div>}>
+                    <RestuarantComponent
+                      resData={restaurant.info}
+                    />
+                  </Suspense>
                 </Link>
                 
               );

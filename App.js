@@ -1,10 +1,13 @@
-import React from "react";
+import React, {lazy, Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter,RouterProvider, Outlet } from "react-router";
 import HeaderComponent from "./src/component/HeaderComponent";
 import BodyComponent from "./src/component/BodyComponent";
 import ErrorComponent from "./src/component/ErrorComponent";
 import MenuComponent from "./src/component/MenuComponent";
+import { Suspense } from "react";
+//import AboutUsComponent from "./src/component/AboutUsComponent"; make it as dynamic loadin or on-demand loading
+const AboutComponent = lazy ( ()=> import ("./src/component/AboutUsComponent"));
 
 const AppComponent = () => {
     return (
@@ -32,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <div>About Page</div>,
+        element: <Suspense fallback={<div>Loading...</div>}><AboutComponent /></Suspense>,
       },
       {
         path: "/contact",
