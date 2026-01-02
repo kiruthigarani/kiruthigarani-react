@@ -231,3 +231,12 @@ useEffect(() => {
 
   ## Class based component life cycle method : https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
   ## super props in class based component : https://namastedev.com/blog/why-we-write-superprops-in-react-class-based-component-2/
+
+
+## single responsibility principle
+## The Single Responsibility Principle (SRP) states that a class or module should have only one reason to change, meaning it should have a single, well-defined responsibility or job. This improves code by making it more maintainable, readable, and testable, as changes to one function (like email notifications) won't break unrelated functionality (like database saving) within the same component. It encourages separating concerns, grouping code that changes for the same reasons, and isolating those that change for different reasons. 
+
+##  Core Idea
+## 1. One Reason to Change: A class should have just one primary responsibility, so any changes related to that responsibility only affect that one class.
+## 2. Actor-Based Definition: A module should be responsible to one actor (stakeholder/user group).
+## 3. Gather Same-Reason Changes: Collect things that change for the same reasons; separate things that change for different reasons. 

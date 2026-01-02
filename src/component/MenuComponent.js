@@ -1,26 +1,8 @@
-import {useEffect, useState} from "react";
-import menuresponse from "../menuResponse.json";
+import useFetchMenu from "../utils/useFetchMenu";
 const MenuComponent = () => {
-
-//   useEffect(() => {
-//     fetchMenuData();
-//   }, []);
-
-//    const fetchMenuData = async () => {
-//     const data = await fetch(
-//       "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=9.9435367&lng=78.0537813&restaurantId=101642&catalog_qa=undefined&submitAction=ENTER",
-//     );
-//     console.log("Menu data fetched",data);
-//     const json = await data.json();
-    
-//   };
-
-  const menuData = menuresponse[0].data.cards;
-  
-  const listOfMenuData =menuData[4].groupedCard.cardGroupMap.REGULAR.cards;
-   const listOfRecommItems = listOfMenuData[1].card.card.itemCards;
- console.log("Menu data:", listOfRecommItems);
-  const {name,avgRating, costForTwoMessage, cuisines} = menuData[2].card.card.info;
+  const { info, listOfRecommItems } = useFetchMenu();
+  console.log("Menu Component Rendered",info);
+   const {name,avgRating, costForTwoMessage, cuisines} = info;
 
 
   return (

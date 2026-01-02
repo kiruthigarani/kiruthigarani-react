@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import "../css/index.css";
 import ShimmerComponent from "./ShimmerComponent";
 import RestuarantComponent from "./RestuarantComponent";
-import resData from "../response.json";
+import { ITEM_LIST_API } from "../utils/constants";
 
 
 const BodyComponent = () => {
@@ -30,7 +30,7 @@ const BodyComponent = () => {
 
   const getResponse = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
+      ITEM_LIST_API
     );
     const json = await data.json();
     const processsedData =
