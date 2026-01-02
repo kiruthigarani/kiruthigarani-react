@@ -1,11 +1,15 @@
 import useFetchMenu from "../utils/useFetchMenu";
+import useOnlineStatus from "../utils/useOnlineStatus";
+
 const MenuComponent = () => {
   const { info, listOfRecommItems } = useFetchMenu();
+  const isOnline = useOnlineStatus();
+  console.log("isOnline menu:", isOnline);
   console.log("Menu Component Rendered",info);
    const {name,avgRating, costForTwoMessage, cuisines} = info;
 
 
-  return (
+  return !isOnline ? <h1>You are offline. Please check your internet connection.</h1> : (
     <div className="Restaurant-menu-container">
       <h1>{name}</h1>
       <p> Ratings :{avgRating} - {costForTwoMessage}</p>

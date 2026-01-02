@@ -4,13 +4,16 @@ import "../css/index.css";
 import ShimmerComponent from "./ShimmerComponent";
 import RestuarantComponent from "./RestuarantComponent";
 import { ITEM_LIST_API } from "../utils/constants";
-
+import useOnlineStatus  from "../utils/useOnlineStatus";
 
 const BodyComponent = () => {
   const [restaurants, setRestaurants] = useState([]);
   const [filterRestaurants, setFilterRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
-
+  
+  const isOnline = useOnlineStatus();
+  console.log("isOnline body:", isOnline);
+  
   console.log("Body rendered");
 
   useEffect(() => {
@@ -41,8 +44,10 @@ const BodyComponent = () => {
     setFilterRestaurants(processsedData);
   };
 
-  return (
+   return !isOnline ? <h1>You are offline. Please check your internet connection.</h1> :
+   (
     <div className="body-container">
+    
       <div className="btn-container">
         <input
           type="text"
