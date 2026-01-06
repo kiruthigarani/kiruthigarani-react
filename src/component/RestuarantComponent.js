@@ -20,4 +20,21 @@ import { IMG_URL } from "../utils/constants";
                 </div>
  )
 }
+
+export const discountRestuarant = (RestuarantComponent) => {
+
+    return (props)=>{
+       const {header, subHeader} = props?.resData?.aggregatedDiscountInfoV3 || {};
+        return (
+           <div className="discount-card ">
+            <label className="">
+                <div className="absolute bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-br-lg">
+                   Flat Deal - {header} {subHeader ? subHeader : ""}
+                </div>
+                </label>
+            <RestuarantComponent {...props} />
+           </div>
+        )
+    }
+}
 export default RestuarantComponent;

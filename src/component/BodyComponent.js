@@ -2,8 +2,9 @@ import React, { useState, useEffect,lazy, Suspense } from "react";
 import { Link } from "react-router";
 // import "../css/index.css";
 import ShimmerComponent from "./ShimmerComponent";
-//import RestuarantComponent from "./RestuarantComponent";
-const RestuarantComponent = lazy(()=>import("./RestuarantComponent"));
+import RestuarantComponent,{discountRestuarant} from "./RestuarantComponent";
+
+
 import { ITEM_LIST_API } from "../utils/constants";
 import useOnlineStatus  from "../utils/useOnlineStatus";
 
@@ -14,6 +15,7 @@ const BodyComponent = () => {
   const [searchText, setSearchText] = useState("");
   
   const isOnline = useOnlineStatus(); 
+  const DiscountRestuarantComponent = discountRestuarant(RestuarantComponent);
   
   console.log("Body rendered");
 
@@ -96,11 +98,20 @@ const BodyComponent = () => {
             {
               return (
                 <Link to={`/restaurant/123`} key={restaurant.info.id}>
-                  <Suspense fallback={<div>Loading...</div>}>
+                 
+                  {
+                  (restaurant?.info?.aggregatedDiscountInfoV3?.discountTag != null) ? (
+                   
+                      <DiscountRestuarantComponent
+                      resData={restaurant.info}
+                    />
+                   
+                  ) : (
+                  
                     <RestuarantComponent
                       resData={restaurant.info}
                     />
-                  </Suspense>
+                  )}
                 </Link>
                 
               );
