@@ -22,7 +22,7 @@ const MenuComponent = () => {
       <p>Cusinies :{cuisines.join(", ")}</p>
       {
         filterItemCategory.map((category) => (
-          <CategoryComponent key={category?.card?.["card"]?.categoryId} category={category.card.card} />
+          <CategoryComponent key={category?.card?.["card"]?.categoryId} category={category?.card?.card} />
         ))
       }
      
