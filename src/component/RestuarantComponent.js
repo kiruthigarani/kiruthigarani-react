@@ -9,7 +9,7 @@ import { IMG_URL } from "../utils/constants";
     const {name, avgRating, costForTwo, cuisines, cloudinaryImageId} = props.resData;
  
  return (
-                <div className="w-xs h-sm shadow-xl/30 bg-amber-50 shadow-white rounded-lg mt-2 border-2 border-white hover:bg-amber-400 items-stretch" >
+                <div className="cards w-xs h-sm shadow-xl/30 bg-amber-50 shadow-white rounded-lg mt-2 border-2 border-white hover:bg-amber-400 items-stretch" >
                     <img className="rounded-lg w-xs h-xs " src={IMG_URL+cloudinaryImageId} alt="logo"/>
                     <div className="card-properties p-2">
                     <h2 className=" font-medium text-2xl tracking-wide">   {name}</h2>
@@ -21,6 +21,7 @@ import { IMG_URL } from "../utils/constants";
  )
 }
 
+//Higher Order Component (HOC)
 export const discountRestuarant = (RestuarantComponent) => {
 
     return (props)=>{

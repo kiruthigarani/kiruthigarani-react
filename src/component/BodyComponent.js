@@ -97,7 +97,7 @@ const BodyComponent = () => {
           {filterRestaurants.map((restaurant) => {
             {
               return (
-                <Link to={`/restaurant/123`} key={restaurant.info.id}>
+                <Link to={`/restaurant/${restaurant.info.id}`} key={restaurant.info.id}>
                  
                   {
                   (restaurant?.info?.aggregatedDiscountInfoV3?.discountTag != null) ? (
