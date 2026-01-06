@@ -287,3 +287,15 @@ const App = () => {
   );
 };
 
+## Some ways to use CSS:
+1. SCSS
+2. SASS
+3. Material UI - React component library
+4. Bootstrap
+5. Tailwind -learn
+6. Styled component -learn
+7. Chakra UI
+8. Ant design
+
+
+## Tailwind CSS - .postcssrc configuration file is used by parcel to understand about Tailwind CSS

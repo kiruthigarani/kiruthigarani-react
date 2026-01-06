@@ -1,6 +1,6 @@
 import React, { useState, useEffect,lazy, Suspense } from "react";
 import { Link } from "react-router";
-import "../css/index.css";
+// import "../css/index.css";
 import ShimmerComponent from "./ShimmerComponent";
 //import RestuarantComponent from "./RestuarantComponent";
 const RestuarantComponent = lazy(()=>import("./RestuarantComponent"));
@@ -13,27 +13,27 @@ const BodyComponent = () => {
   const [filterRestaurants, setFilterRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
   
-  const isOnline = useOnlineStatus();
-  console.log("isOnline body:", isOnline);
+  const isOnline = useOnlineStatus(); 
   
   console.log("Body rendered");
 
   useEffect(() => {
     getResponse();
 
-    const interval = setInterval(() => {
-       console.log("useEffect called");
+    // const interval = setInterval(() => {
+    //    console.log("useEffect called");
       
-    }, 1000);
+    // }, 1000);
     
-    return () => {
-      //this will allow to cleanup the interval, and running the logic on every component
-      console.log("useEffect cleanup");
-      clearInterval(interval);
-    };
+    // return () => {
+    //   //this will allow to cleanup the interval, and running the logic on every component
+    //   console.log("useEffect cleanup");
+    //   clearInterval(interval);
+    // };
   }, []);
 
   const getResponse = async () => {
+    console.log("useEffect called");
     const data = await fetch(
       ITEM_LIST_API
     );
@@ -48,18 +48,19 @@ const BodyComponent = () => {
 
    return !isOnline ? <h1>You are offline. Please check your internet connection.</h1> :
    (
-    <div className="body-container">
+    <div className="w-full">
     
-      <div className="btn-container">
-        <input
+      <div className="m-4 btn-container">
+        <input className="border-0 shadow-md px-2 py-1 m-4"
           type="text"
+          name= "search"
           placeholder="search"
           value={searchText}
           onChange={(e) => {
             setSearchText(e.target.value);
           }}
         />
-        <button
+        <button className="search border-0 bg-orange-400 rounded-md px-2 py-1 cursor-pointer"
           onClick={() => {
             const searchResult = restaurants.filter((restaurant) => {
               return restaurant.info.name
@@ -75,7 +76,7 @@ const BodyComponent = () => {
           Search
         </button>
         <button
-          className="filter-btn"
+          className="cursor-pointer filter rounded-md bg-orange-400 ml-1 px-2 py-1 border-0"
           onClick={() => {
             let resData1 = restaurants.filter((restaurant) => {
               return restaurant.info.avgRating > 4.1;
@@ -90,7 +91,7 @@ const BodyComponent = () => {
       {filterRestaurants.length == 0 ? (
         <ShimmerComponent />
       ) : (
-        <div className="card-container">
+        <div className="card-container bg-amber-400  flex flex-wrap gap-4 justify-center">
           {filterRestaurants.map((restaurant) => {
             {
               return (

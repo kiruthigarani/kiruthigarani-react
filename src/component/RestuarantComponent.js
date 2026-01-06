@@ -1,21 +1,21 @@
 
 import React from "react";
-import "../css/index.css";
-
+// import "../css/index.css";
+import { IMG_URL } from "../utils/constants";
 
  const RestuarantComponent = (props) =>{
-  {
+  
     //console.log("props:", props.resData);
-
-  }
+    const {name, avgRating, costForTwo, cuisines, cloudinaryImageId} = props.resData;
+ 
  return (
-                <div className="res-card" >
-                    <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1671180015/17d98089d658df8b7966ee3b03e7421b.jpg"} alt="logo"/>
-                    <div className="card-properties">
-                    <h2>{props.resData.name}</h2>
-                    <h3>Rating:{props.resData.avgRating}</h3>
-                    <h4>price: {props.resData.costForTwo ? props.resData.costForTwo : props.resData.defaultPrice}</h4>
-                    <h4>cuisine: {props.resData.cuisines.join(", ")}</h4>
+                <div className="w-xs h-sm shadow-xl/30 bg-amber-50 shadow-white rounded-lg mt-2 border-2 border-white hover:bg-amber-400 items-stretch" >
+                    <img className="rounded-lg w-xs h-xs " src={IMG_URL+cloudinaryImageId} alt="logo"/>
+                    <div className="card-properties p-2">
+                    <h2 className=" font-medium text-2xl tracking-wide">   {name}</h2>
+                    <h3 className="font-semibold tracking-wide">Rating:    {avgRating}</h3>
+                    <h4 className="font-semibold tracking-wide">Price:     {costForTwo ? costForTwo : props.resData.defaultPrice}</h4>
+                    <h4 className="font-semibold tracking-wide">Cuisine:   {cuisines.join(", ")}</h4>
                     </div>
                 </div>
  )

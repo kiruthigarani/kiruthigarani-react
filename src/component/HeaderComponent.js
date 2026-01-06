@@ -1,5 +1,5 @@
 import  React , {useState} from  "react";
-import  "../css/index.css";
+ import  "../index.css";
 import {logo} from '../images/logo.png';
 
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -10,16 +10,16 @@ const Header = () => {
     const [btnName, setBtnName] = useState("LOGIN");
     const isOnline = useOnlineStatus();
     return (
-        <div className="header-container">
-            <div className="logo">
+        <div className="flex justify-between shadow-lg my-2">
+            <div className="w-56 ">
                 <Link to="/">
                     <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_260/portal/m/seo/Logos/Swiggy/Swiggy%20logo-2.png" alt="Kiruthiga logo" />
                 </Link>
              
             </div>
-            <div className="nav-items">
-                <ul>
-                    <li>{isOnline ? "Online" : "Offline"}</li>
+            <div className="">
+                <ul className="flex gap-10 p-4 m-4  font-bold text-lg">
+                    <li className={isOnline ? "text-green-500" : "text-red-600"}>{isOnline ? "Online" : "Offline"}</li>
                     <li> <Link to="/">Home</Link></li>
                     <li> <Link to="/about">About</Link></li>
                     <li> <Link to="/contact">Contact</Link></li>

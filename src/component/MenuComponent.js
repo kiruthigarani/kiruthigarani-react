@@ -11,7 +11,7 @@ const MenuComponent = () => {
 
   return !isOnline ? <h1>You are offline. Please check your internet connection.</h1> : (
     <div className="Restaurant-menu-container">
-      <h1>{name}</h1>
+      <h1 className="font-extrabold text-6xl tracking-wide">{name}</h1>
       <p> Ratings :{avgRating} - {costForTwoMessage}</p>
       <p>Cusinies :{cuisines.join(", ")}</p>
 
