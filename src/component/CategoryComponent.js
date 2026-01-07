@@ -1,13 +1,17 @@
-import  React , {useState} from  "react";
+
 import CategoryDetail from "./CategoryDetail";
 
-const CategoryComponent = ({category}) => {
+const CategoryComponent = ({category, showIndex, showItem}) => {
 
-  const [isOpen, setIsOpen] = useState(false); //this will help to toggle the category items, but it wont collapse other opened categories
+  // const [isOpen, setIsOpen] = useState(false); //this will help to toggle the category items, but it wont collapse other opened categories
+  /**
+   * Instead of above state in CategoryComponent, we can lift the state up to MenuComponent and pass the state and setState function as props to CategoryComponent
+   * This way we can manage which category is open from MenuComponent
+   */
+  
 
   const clickHandler = () => {
-   
-    setIsOpen(!isOpen);
+   showItem(showIndex);
   }
 
   return (
@@ -21,7 +25,7 @@ const CategoryComponent = ({category}) => {
         {
           category["itemCards"].map((item) => {
              const processsedData = item?.card?.info;
-             return isOpen && <CategoryDetail key={processsedData?.id} CategoryDetail={processsedData} />
+             return showIndex && <CategoryDetail key={processsedData?.id} CategoryDetail={processsedData} />
           })
         }
         </div>

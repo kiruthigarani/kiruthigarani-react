@@ -1,9 +1,10 @@
 import useFetchMenu from "../utils/useFetchMenu";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import CategoryComponent from "./CategoryComponent";
+import React, { useState } from "react";
 const MenuComponent = () => {
   const { info, listOfMenuData } = useFetchMenu();
- 
+  const [showIndex, setShowIndex] = useState(null);
   const isOnline = useOnlineStatus();
   
    const {name,avgRating, costForTwoMessage, cuisines} = info;
@@ -21,8 +22,10 @@ const MenuComponent = () => {
       <p> Ratings :{avgRating} - {costForTwoMessage}</p>
       <p>Cusinies :{cuisines.join(", ")}</p>
       {
-        filterItemCategory.map((category) => (
-          <CategoryComponent key={category?.card?.["card"]?.categoryId} category={category?.card?.card} />
+        filterItemCategory.map((category,index) => (
+          <CategoryComponent key={category?.card?.["card"]?.categoryId} category={category?.card?.card} 
+            showIndex={index === showIndex ? true : false}
+            showItem={() => setShowIndex(index)}/>
         ))
       }
      
