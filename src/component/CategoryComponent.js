@@ -3,10 +3,10 @@ import CategoryDetail from "./CategoryDetail";
 
 const CategoryComponent = ({category}) => {
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); //this will help to toggle the category items, but it wont collapse other opened categories
 
   const clickHandler = () => {
-    console.log("Category Clicked:", category.title);
+   
     setIsOpen(!isOpen);
   }
 

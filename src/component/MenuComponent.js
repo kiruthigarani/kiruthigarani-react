@@ -3,7 +3,7 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 import CategoryComponent from "./CategoryComponent";
 const MenuComponent = () => {
   const { info, listOfMenuData } = useFetchMenu();
-  
+ 
   const isOnline = useOnlineStatus();
   
    const {name,avgRating, costForTwoMessage, cuisines} = info;
