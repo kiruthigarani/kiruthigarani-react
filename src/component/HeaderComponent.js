@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState,useContext}  from "react";
+import userInformation from "../utils/userInformation";
 import "../index.css";
 import { logo } from "../images/logo.png";
 
@@ -7,6 +8,8 @@ import { Link } from "react-router";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("LOGIN");
+
+  const {username} = useContext(userInformation);
   const isOnline = useOnlineStatus();
   return (
     <div className="flex justify-between shadow-lg my-2">
@@ -37,6 +40,8 @@ const Header = () => {
           </li>
           <li>Blog</li>
           <li>Careers</li>
+         {/* using context to get the user information */}
+          <li>Hello, {username}</li> 
           <button
             className="login-btn"
             onClick={() => {

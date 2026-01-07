@@ -1,20 +1,40 @@
-import React, {lazy, Suspense} from "react";
+import React, {lazy, Suspense, useEffect,useState, useContext} from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter,RouterProvider, Outlet } from "react-router";
 import HeaderComponent from "./src/component/HeaderComponent";
 import BodyComponent from "./src/component/BodyComponent";
 import ErrorComponent from "./src/component/ErrorComponent";
 import MenuComponent from "./src/component/MenuComponent";
-import { Suspense } from "react";
+
+import userInformation from "./src/utils/userInformation";
 //import AboutUsComponent from "./src/component/AboutUsComponent"; make it as dynamic loadin or on-demand loading
 const AboutComponent = lazy ( ()=> import ("./src/component/AboutUsComponent"));
 
 const AppComponent = () => {
+  const [userName, setUserName] = useState("");
+ 
+  useEffect( ()=>{
+      getUserInfo();
+  },[])
+  const getUserInfo = async () => {
+    //API call to get user info
+    const data = await fetch ("https://jsonplaceholder.typicode.com/users/1"); //dummy API
+    const json = await data.json();
+    setUserName (json.name);
+  }
     return (
-        <div className="app-container">
-            <HeaderComponent />
+      <>
+        {/*provider is  used to pass data to all the child components and it updates the username which is in userinformation file (default user) with new name from auth api
+        This new value will be shown in restaurant component and header component where we are using the context
+        
+        */}
+        <userInformation.Provider value={{username: userName}}>
+          <div className="app-container">           
+            <HeaderComponent />          
             <Outlet />
-        </div>
+          </div>
+        </userInformation.Provider>
+      </>
     );
 }
 

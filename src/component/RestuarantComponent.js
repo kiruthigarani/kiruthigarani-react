@@ -1,10 +1,11 @@
 
-import React from "react";
+import React, {useContext} from "react";
 // import "../css/index.css";
 import { IMG_URL } from "../utils/constants";
+import userInformation from "../utils/userInformation";
 
  const RestuarantComponent = (props) =>{
-  
+    const {username} = useContext(userInformation);
     //console.log("props:", props.resData);
     const {name, avgRating, costForTwo, cuisines, cloudinaryImageId} = props.resData;
  
@@ -16,6 +17,8 @@ import { IMG_URL } from "../utils/constants";
                     <p className="font-semibold tracking-wide">Rating:    {avgRating}</p>
                     <p className="font-semibold tracking-wide">Price:     {costForTwo ? costForTwo : props.resData.defaultPrice}</p>
                     <p className="font-semibold text-xs tracking-wide">Cuisine:   {cuisines.join(", ")}</p>
+                    <p className="font-semibold text-xs tracking-wide">Username : {username}</p>
+                    
                     </div>
                 </div>
  )
