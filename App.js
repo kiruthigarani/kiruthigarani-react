@@ -8,14 +8,14 @@ import MenuComponent from "./src/component/MenuComponent";
 
 import userInformation from "./src/utils/userInformation";
 //import AboutUsComponent from "./src/component/AboutUsComponent"; make it as dynamic loadin or on-demand loading
-const AboutComponent = lazy ( ()=> import ("./src/component/AboutUsComponent"));
+const AboutComponent = lazy (()=> import ("./src/component/AboutUsComponent"));
 
 const AppComponent = () => {
   const [userName, setUserName] = useState("");
- 
-  useEffect( ()=>{
-      getUserInfo();
-  },[])
+
+  useEffect(() => {
+    getUserInfo();
+  }, []);
   const getUserInfo = async () => {
     //API call to get user info
     const data = await fetch ("https://jsonplaceholder.typicode.com/users/1"); //dummy API
