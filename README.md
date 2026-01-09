@@ -302,13 +302,13 @@ const App = () => {
 
 
 ## custom hooks vs higher-order components
--------------------------------------------------------------|-----------------------------------------------------|
-Feature 	                   Custom Hooks	                   |       Higher-Order Components (HOCs)                |
--------------------------------------------------------------|-----------------------------------------------------|
+-------------------------------------------------------|---------------------------------------------------|
+Feature 	                   Custom Hooks	                   |    Higher-Order Components (HOCs)                |
+-----------------------------------------------------|-----------------------------------------------------|
 Primary Use Case	  |    Reusing stateful logic	             |  Component enhancement, conditional rendering       |
 Implementation	    |     Function that starts with use	     |  Function takes a Component & returns a new Component
 Component Tree Impact|   No extra nesting, cleaner tree	     |   Can lead to "wrapper hell" (deep nesting)         |
-Data Flow	  |           Explicit                             |   Implicit                                          |
+Data Flow	       |   Explicit                       |   Implicit                                          |
                         (you see hooks called in the component)	 (props are injected behind the scenes)            |
 JSX Rendering	 |            No (logic only)	                 |    Yes (can wrap with additional UI/JSX)            |
 --------------------------------------------------------------------------------------------------------------------

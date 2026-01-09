@@ -4,7 +4,6 @@ import { Link } from "react-router";
 import ShimmerComponent from "./ShimmerComponent";
 import RestuarantComponent,{discountRestuarant} from "./RestuarantComponent";
 
-
 import { ITEM_LIST_API } from "../utils/constants";
 import useOnlineStatus  from "../utils/useOnlineStatus";
 
@@ -24,7 +23,6 @@ const BodyComponent = () => {
 
     // const interval = setInterval(() => {
     //    console.log("useEffect called");
-      
     // }, 1000);
     
     // return () => {

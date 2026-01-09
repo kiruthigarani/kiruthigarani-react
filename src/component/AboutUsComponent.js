@@ -7,7 +7,6 @@ export default function AboutUsComponent() {
     console.log("AboutUsComponent Rendered");
 
     const prime = useMemo(()=>{
-        console.log("Calculating prime number...",heavyCalculation);
         return findNthPrime(Number(heavyCalculation));
     },[heavyCalculation]);
     return (
