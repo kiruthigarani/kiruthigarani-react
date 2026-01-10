@@ -5,14 +5,14 @@ import { logo } from "../images/logo.png";
 
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { Link } from "react-router";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("LOGIN");
 
   const {username} = useContext(userInformation);
   const isOnline = useOnlineStatus();
-  const cartItems = useSelector((state) => state.cart.items);
+  // const cartItems = useSelector((state) => state.cart.items);
   return (
     <div className="flex justify-between shadow-lg my-2">
       <div className="w-56 ">
@@ -40,10 +40,8 @@ const Header = () => {
             {" "}
             <Link to="/contact">Contact</Link>
           </li>
-          <li>Cart ({cartItems.length})</li>
-          
-          
-          <li>Careers</li>
+          {/* <li>Cart ({cartItems.length})</li> */}
+           <li>Careers</li>
          {/* using context to get the user information */}
           <li>Hello, {username}</li> 
           <button
