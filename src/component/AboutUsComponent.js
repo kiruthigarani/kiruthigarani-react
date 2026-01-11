@@ -1,6 +1,6 @@
 import React, {useState,useMemo,useRef,useEffect} from 'react';
 import findNthPrime from '../utils/calcPrime';
-
+import ToDoComponents from './ToDoComponents';
 import StopWatch from './StopWatchComponent';
 export default function AboutUsComponent() {
     const [heavyCalculation, setHeavyCalculation] = useState("");
@@ -11,12 +11,7 @@ export default function AboutUsComponent() {
 
     let x=0;
       const z = useRef (0);
-      useEffect(() => {
-        // increment once on mount (avoid updating state during render)
-       console.log("Component rendered");
-    }, []);
-
-  
+    
   
     // const prime = useMemo(()=>{
     //     return findNthPrime(Number(heavyCalculation));
@@ -102,6 +97,13 @@ export default function AboutUsComponent() {
             <h2>Stop Watch</h2>
             <div className='border-2 border-black m-2 p-2 h-64'>
                 <StopWatch />
+            </div>
+
+            <div>
+            <h2>To-Do List</h2>
+            <div className='border-2 border-black m-2 p-2 h-64'>
+                <ToDoComponents />
+                </div>
             </div>
         </div>
         </div>
