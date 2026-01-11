@@ -7,6 +7,8 @@ import ErrorComponent from "./src/component/ErrorComponent";
 import MenuComponent from "./src/component/MenuComponent";
 
 import userInformation from "./src/utils/userInformation";
+import { Provider } from "react-redux";
+import appStore from "./src/reduxStore/appStore";
 //import AboutUsComponent from "./src/component/AboutUsComponent"; make it as dynamic loadin or on-demand loading
 const AboutComponent = lazy (()=> import ("./src/component/AboutUsComponent"));
 
@@ -24,16 +26,18 @@ const AppComponent = () => {
   }
     return (
       <>
-        {/*provider is  used to pass data to all the child components and it updates the username which is in userinformation file (default user) with new name from auth api
+        {/*userInformation provider is  used to pass data to all the child components and it updates the username which is in userinformation file (default user) with new name from auth api
         This new value will be shown in restaurant component and header component where we are using the context
         
         */}
+        <Provider store={appStore}>
         <userInformation.Provider value={{username: userName}}>
           <div className="app-container">           
             <HeaderComponent />          
             <Outlet />
           </div>
         </userInformation.Provider>
+        </Provider>
       </>
     );
 }
