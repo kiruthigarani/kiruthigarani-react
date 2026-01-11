@@ -1,12 +1,21 @@
-import React, {useState,useMemo,useRef} from 'react';
+import React, {useState,useMemo,useRef,useEffect} from 'react';
 import findNthPrime from '../utils/calcPrime';
 export default function AboutUsComponent() {
     const [heavyCalculation, setHeavyCalculation] = useState("");
     const [showTheme, setShowThem] = useState(true);
-    
+     const [y,setY] = useState (0);
     const inputRef = useRef (null);
     console.log("AboutUsComponent Rendered");
 
+    let x=0;
+      const z = useRef (0);
+      useEffect(() => {
+        // increment once on mount (avoid updating state during render)
+       console.log("Component rendered");
+    }, []);
+
+  
+  
     // const prime = useMemo(()=>{
     //     return findNthPrime(Number(heavyCalculation));
     // },[heavyCalculation]);
@@ -55,8 +64,36 @@ export default function AboutUsComponent() {
                 <div className= "border-2 border-black m-2 p-2 h-64">
                     <button className='m-2 p-2 border-2 bg-green-200' onClick={handleClick}>Click Me!!</button>
                     <input className={"border-2 p-4"} ref={inputRef} />
-
                 </div>
+                <div>
+                    <button className='m-2 p-2 border-2 bg-green-200' onClick ={
+                        () => {
+                            x= x ? x+1 : 1; 
+                            console.log ("x value:",x)
+                        }
+                        }>Increment X</button>
+                <span>let x=</span> <span>{x+1}</span>
+                </div>
+                <div>
+                    <button className='m-2 p-2 border-2 bg-green-200' onClick ={
+                        () => {
+                            setY (y+1);  
+                          
+                        }
+                        }>Increment Y</button>
+                         <span>State y=</span> <span>{y}</span>
+                        </div>
+                <div>
+                    <button className='m-2 p-2 border-2 bg-green-200' onClick ={
+                        () => {
+                           z.current = z.current + 1;  
+                           console.log ("z value:",z.current)  
+                        }
+                        }>Increment Z</button>
+                    <span>Ref z=</span> <span>{z.current}</span>
+                </div>
+               
+               
         </div>
         </div>
 
