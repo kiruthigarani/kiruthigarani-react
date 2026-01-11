@@ -312,3 +312,10 @@ Data Flow	       |   Explicit                       |   Implicit                
                         (you see hooks called in the component)	 (props are injected behind the scenes)            |
 JSX Rendering	 |            No (logic only)	                 |    Yes (can wrap with additional UI/JSX)            |
 --------------------------------------------------------------------------------------------------------------------
+
+
+## Difference between ref, state and let variables
+
+## 1. let variable, the value will update but it wont re-render the component, so that the value wont be visible in the UI
+## 2. state variable,  the value will be updated but it will re-render the component for every state change
+## 3. if you want to persist the value but you dont want the component to be re-render, then use useRef
