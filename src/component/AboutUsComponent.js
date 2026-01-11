@@ -1,5 +1,7 @@
 import React, {useState,useMemo,useRef,useEffect} from 'react';
 import findNthPrime from '../utils/calcPrime';
+
+import StopWatch from './StopWatchComponent';
 export default function AboutUsComponent() {
     const [heavyCalculation, setHeavyCalculation] = useState("");
     const [showTheme, setShowThem] = useState(true);
@@ -96,6 +98,12 @@ export default function AboutUsComponent() {
                
         </div>
 
+        <div>
+            <h2>Stop Watch</h2>
+            <div className='border-2 border-black m-2 p-2 h-64'>
+                <StopWatch />
+            </div>
+        </div>
         </div>
 
         
