@@ -11,9 +11,13 @@ const MenuComponent = () => {
    const {name,avgRating, costForTwoMessage, cuisines} = info;
    
    //filter ItemCategory only from listOfMenuData
-const handleToggle = (index) => {
-  setOpenIndex(prev => (prev === index ? null : index));
-};
+    const handleToggle = (index) => {
+     setOpenIndex(prev => {
+      console.log("Previous Index:", prev, "Clicked Index:", index);
+      return prev === index ? null : index
+    
+    });
+    };
    const filterItemCategory = listOfMenuData.filter ((category) =>{
     return category?.card?.["card"]?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     

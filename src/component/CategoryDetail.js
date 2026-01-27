@@ -3,11 +3,8 @@ import { useDispatch } from "react-redux";
 import {addItem} from "../reduxStore/cartSlice";
 import {CATEGORY_IMG_URL_300} from "../utils/constants";
 
-
-
-
 const CategoryDetail = ({ CategoryDetail }) => {
-  console.log("CategoryDetail Rendered:", CategoryDetail);
+ // console.log("CategoryDetail Rendered:", CategoryDetail);
    const dispatch = useDispatch();
 
    const addToCart = () => {
