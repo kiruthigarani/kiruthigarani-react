@@ -9,8 +9,11 @@ import MenuComponent from "./src/component/MenuComponent";
 import userInformation from "./src/utils/userInformation";
 import { Provider } from "react-redux";
 import appStore from "./src/reduxStore/appStore";
+
+import CartComponent from "./src/component/CartComponent";
 //import AboutUsComponent from "./src/component/AboutUsComponent"; make it as dynamic loadin or on-demand loading
 const AboutComponent = lazy (()=> import ("./src/component/AboutUsComponent"));
+
 
 const AppComponent = () => {
   const [userName, setUserName] = useState("");
@@ -68,6 +71,10 @@ const router = createBrowserRouter([
       {
         path: "/restaurant/:resId",
         element: <MenuComponent />,
+      },
+      {
+        path: "/cart",
+        element:<CartComponent/>
       }
     ],
     errorElement: <ErrorComponent />,

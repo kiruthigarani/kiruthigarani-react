@@ -3,12 +3,12 @@ import { useDispatch } from "react-redux";
 import {addItem} from "../reduxStore/cartSlice";
 import {CATEGORY_IMG_URL_300} from "../utils/constants";
 
-const CategoryDetail = ({ CategoryDetail }) => {
- // console.log("CategoryDetail Rendered:", CategoryDetail);
+const CategoryDetail = ({ CategoryDetail,removeAdd }) => {
+ console.log("CategoryDetail Rendered:", CategoryDetail);
    const dispatch = useDispatch();
 
-   const addToCart = () => {
-    dispatch(addItem(CategoryDetail.name));
+   const addToCart = (CategoryDetail) => {
+    dispatch(addItem(CategoryDetail));
    }
 
   return (
@@ -41,7 +41,10 @@ const CategoryDetail = ({ CategoryDetail }) => {
           }
           alt={CategoryDetail?.name}
         />
-        <button onClick = { addToCart} className="border-0 bg-gray-800 text-white px-2 py-1 rounded-lg mt-2 hover:bg-gray-600">Add +</button>
+        {
+          (removeAdd) ?  <button onClick = { ()=>addToCart(CategoryDetail)} className="border-0 bg-gray-800 text-white px-2 py-1 rounded-lg mt-2 hover:bg-gray-600">Add +</button> : ''
+        }
+      
         </div>
     </div>
   );

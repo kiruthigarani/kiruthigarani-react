@@ -14,6 +14,7 @@ const Header = () => {
   const {username} = useContext(userInformation);
   const isOnline = useOnlineStatus();
     const cartItems = useSelector((item)=> item.cartConfig.items);
+    console.log("HEADER:",cartItems);
   return (
     <div className="flex justify-between shadow-lg my-2">
       <div className="w-56 ">
@@ -41,7 +42,7 @@ const Header = () => {
             {" "}
             <Link to="/contact">Contact</Link>
           </li>
-          <li>Cart ({cartItems.length})</li>
+          <li> <Link to="/cart">Cart ({cartItems.length})</Link></li>
            <li>Careers</li>
          {/* using context to get the user information */}
           <li>Hello, {username}</li> 

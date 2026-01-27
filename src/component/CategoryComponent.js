@@ -10,6 +10,7 @@ const CategoryComponent = ({category, index, isOpen, toggle }) => {
    * This way we can manage which category is open from MenuComponent
    */
   console.log("isOpen:", isOpen);
+ 
   return (
     <>
     <div onClick={toggle}
@@ -26,7 +27,7 @@ const CategoryComponent = ({category, index, isOpen, toggle }) => {
         {
           category["itemCards"].map((item) => {
              const processsedData = item?.card?.info;
-             return <CategoryDetail key={processsedData?.id} CategoryDetail={processsedData} />
+             return <CategoryDetail key={processsedData?.id} CategoryDetail={processsedData} removeAdd={true} />
           })
         }
         </div>
