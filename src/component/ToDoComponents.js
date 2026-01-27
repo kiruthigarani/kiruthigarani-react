@@ -14,7 +14,7 @@ const ToDoComponents = () => {
    }
     const addTask = () =>{
         console.log("New Task:", newTask);
-        console.log("TRIM:",newTask.trim());
+        console.log("next:",Math.max(...tasks.map(t => t.id)));
         if(newTask.trim() !== "") {
             const nextId = tasks.length ? Math.max(...tasks.map(t => t.id)) + 1 : 1;
             setTasks(prev => [...prev, { id: nextId, text: newTask.trim() }]);

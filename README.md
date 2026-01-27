@@ -78,7 +78,7 @@ Read more :https://stackoverflow.com/questions/42773892/wrong-components-rendere
 
 ## React-Fiber Architecture - Read about it
 
-##useEffect will mounted once the component is rendered
+## useEffect will render a component once on its initial render
 
 -------------------   ---------------------------    -----------------------------   ----------------------------
 Loads the web page  -> Render the component first ->  API call will happen inside ->  Re-render the component with
@@ -100,7 +100,7 @@ By-pass cors issue:
 
 
 useEffect :
-1. if no dependency array in useEffect => useEffect will call  everytime the component rendered
+1. if no dependency array in useEffect => useEffect will call everytime the component rendered
 2. if dependency array is empty => useEffect will call on initial render (only once)
 3. If dependency array is not empty => useEffect will call, whenever the value in dependcy array updated or changed
 
