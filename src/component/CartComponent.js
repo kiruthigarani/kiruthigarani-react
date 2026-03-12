@@ -12,8 +12,13 @@ const getCart = useSelector((item)=> item.cartConfig.items);
         {
              getCart.map((cartDetails) =>{
             const id = cartDetails?.id;
-          
-            return <CategoryDetail key={id}  CategoryDetail={cartDetails} removeAdd={false} />
+           
+            return (
+              <div key={id}>
+                <CategoryDetail CategoryDetail={cartDetails} removeAdd={false} quantity={cartDetails.quantity || 1} />
+              
+              </div>
+            )
 })
         }
     </div>

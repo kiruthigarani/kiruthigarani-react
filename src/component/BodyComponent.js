@@ -38,6 +38,7 @@ const BodyComponent = () => {
       ITEM_LIST_API
     );
     const json = await data.json();
+    console.log("JSON:",json);
     const processsedData =
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants;

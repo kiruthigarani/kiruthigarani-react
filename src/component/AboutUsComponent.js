@@ -77,7 +77,6 @@ export default function AboutUsComponent() {
             }}
             value={heavyCalculation}
           />
-
           <p>
             {heavyCalculation &&
               `The ${heavyCalculation}th prime number is ${prime()}`}

@@ -5,7 +5,7 @@ const StopWatch = ()=>{
     const elapsedTimeRef = useRef (null);
     const intervalRef = useRef (null);
 
-    console.log("REF VALUE:", elapsedTimeRef.current);
+   // console.log("REF VALUE:", elapsedTimeRef.current);
 
     useEffect (() =>{
        intervalRef.current = setInterval (() =>{
@@ -16,12 +16,12 @@ const StopWatch = ()=>{
 
         return ()=>{
             clearInterval (intervalRef.current);
-
         }
 
     }, [isRunning]);
+
     const start = () =>{
-        console.log("Start");
+        console.log("Start",elapsedTime);
         elapsedTimeRef.current = Date.now() - elapsedTime;
         setIsRunning (true);
     }

@@ -1,14 +1,28 @@
 import  React , {useState} from  "react";
-import { useDispatch } from "react-redux";
-import {addItem,removeItem} from "../reduxStore/cartSlice";
+import { useDispatch,useSelector } from "react-redux";
+import {addItem,removeItem,updateQuantity} from "../reduxStore/cartSlice";
 import {CATEGORY_IMG_URL_300} from "../utils/constants";
 
-const CategoryDetail = ({ CategoryDetail,removeAdd }) => {
+const CategoryDetail = ({ CategoryDetail,removeAdd, quantity }) => {
  console.log("CategoryDetail Rendered:", CategoryDetail);
    const dispatch = useDispatch();
-
+    const cartItems = useSelector((item)=> item.cartConfig.items);
+    const itemQuantity = useSelector((item)=> item.cartConfig.items);
+    console.log("itemQuantity:",itemQuantity);
    const addToCart = (CategoryDetail) => {
-    dispatch(addItem(CategoryDetail));
+   
+    //check if the clicked item is already available in the cart
+    const itemExists = cartItems.find((item) => {
+     
+      return item.id === CategoryDetail.id;
+    });
+   
+    if(itemExists){
+      dispatch(updateQuantity(CategoryDetail.id)); 
+    }else{
+         dispatch(addItem(CategoryDetail));
+    }
+   
    }
 
    const handleRemoveItem = () => {
@@ -45,14 +59,18 @@ const CategoryDetail = ({ CategoryDetail,removeAdd }) => {
           }
           alt={CategoryDetail?.name}
         />
+        <p className="text-bold text-center">Item(s): {quantity}</p>
         <div>
+          {removeAdd ? (
           <button
             onClick={handleRemoveItem}
             className="border-0  p-4 bg-gray-800 text-white px-2 py-1 rounded-lg mt-2 hover:bg-gray-600"
           >
            -
           </button>
-          -
+           ) : (
+          ""
+        )}
         {removeAdd ? (
           <button
             onClick={() => addToCart(CategoryDetail)}

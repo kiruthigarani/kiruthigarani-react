@@ -13,8 +13,9 @@ const Header = () => {
 
   const {username} = useContext(userInformation);
   const isOnline = useOnlineStatus();
-    const cartItems = useSelector((item)=> item.cartConfig.items);
-    console.log("HEADER:",cartItems);
+  const cartItems = useSelector((item)=> item.cartConfig.items);
+const totalQuantity = cartItems.reduce((sum, item) => sum + (item.quantity || 1), 0);
+console.log("HEADER:",totalQuantity);
   return (
     <div className="flex justify-between shadow-lg my-2">
       <div className="w-56 ">
@@ -42,7 +43,7 @@ const Header = () => {
             {" "}
             <Link to="/contact">Contact</Link>
           </li>
-          <li> <Link to="/cart">Cart ({cartItems.length})</Link></li>
+          <li> <Link to="/cart">Cart ({totalQuantity})</Link></li>
            <li>Careers</li>
          {/* using context to get the user information */}
           <li>Hello, {username}</li> 
