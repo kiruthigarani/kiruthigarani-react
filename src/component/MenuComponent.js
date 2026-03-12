@@ -18,7 +18,8 @@ const MenuComponent = () => {
     
     });
     };
-   const filterItemCategory = listOfMenuData.filter ((category) =>{
+   
+   const filterItemCategory = listOfMenuDatwa.filter ((category) =>{
     return category?.card?.["card"]?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     
    })

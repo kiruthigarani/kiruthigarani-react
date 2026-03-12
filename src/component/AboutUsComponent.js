@@ -2,12 +2,35 @@ import React, { useState, useMemo, useRef, useEffect } from "react";
 import findNthPrime from "../utils/calcPrime";
 import ToDoComponents from "./ToDoComponents";
 import StopWatch from "./StopWatchComponent";
+import TrafficLight from "./trafficLight";
+
+
 export default function AboutUsComponent() {
   const [heavyCalculation, setHeavyCalculation] = useState("");
   const [showTheme, setShowThem] = useState(true);
   const [y, setY] = useState(0);
   const inputRef = useRef(null);
   console.log("AboutUsComponent Rendered");
+const [color,setColor] = useState("grey");
+
+useEffect (()=>{
+ 
+  const interval = setInterval(()=>{
+     setColor(
+      (prev)=>
+      {
+      if(prev === "grey")  return "red"; 
+      if(prev === "red") return "yellow";
+      if(prev === "yellow") return "green";
+      if(prev === "green") return "grey";
+      return prev;
+      });
+   
+ console.log("Traffic Light Color Changed");
+  },1000);
+
+  return () =>clearInterval(interval);
+},[]);
 
   let x = 0;
   const z = useRef(0);
@@ -142,10 +165,14 @@ export default function AboutUsComponent() {
           <h2>To-Do List</h2>
           <div className="border-2 border-black m-2 p-2 h-64">
             <h1>Name from Parent Component: {name}</h1>
-
             <ToDoComponents name={name} modifiedChildName={modifiedName} />
+            <TrafficLight color={color} />        
+            
           </div>
+
         </div>
+
+        
       </div>
     </div>
   );
