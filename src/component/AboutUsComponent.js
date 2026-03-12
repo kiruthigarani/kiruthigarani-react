@@ -3,6 +3,8 @@ import findNthPrime from "../utils/calcPrime";
 import ToDoComponents from "./ToDoComponents";
 import StopWatch from "./StopWatchComponent";
 import TrafficLight from "./trafficLight";
+
+
 export default function AboutUsComponent() {
   const [heavyCalculation, setHeavyCalculation] = useState("");
   const [showTheme, setShowThem] = useState(true);
@@ -164,9 +166,11 @@ useEffect (()=>{
           <h2>To-Do List</h2>
           <div className="border-2 border-black m-2 p-2 h-64">
             <h1>Name from Parent Component: {name}</h1>
-            {/* <ToDoComponents name={name} modifiedChildName={modifiedName} /> */}
-            <TrafficLight color={color} />           
+            <ToDoComponents name={name} modifiedChildName={modifiedName} />
+            <TrafficLight color={color} />        
+            
           </div>
+
         </div>
 
         
